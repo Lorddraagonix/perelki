@@ -4,6 +4,16 @@ Codzienna tablica ogłoszeń klasyków w promieniu około 100 mil od San Mateo (
 
 Cały interfejs jest po polsku. Nie ma backendu ani płatnych usług.
 
+## Jednorazowe włączenie strony
+
+Kod sam nie może włączyć GitHub Pages. Właściciel repozytorium musi to kliknąć raz:
+
+1. Wejdź w repozytorium → **Settings** → **Pages**.
+2. W **Build and deployment** ustaw **Source: GitHub Actions** (nie „Deploy from a branch”).
+3. Jeśli workflow [Deploy GitHub Pages](https://github.com/Lorddraagonix/perelki/actions/workflows/pages.yml) jest czerwony, otwórz go i kliknij **Re-run jobs**.
+
+Dopiero wtedy strona jest pod adresem [https://lorddraagonix.github.io/perelki/](https://lorddraagonix.github.io/perelki/). Kolejne push na `main` publikują ją same.
+
 ## Codzienna aktualizacja
 
 Jedyny plik, który trzeba zmieniać każdego dnia, to [`data/listings.json`](data/listings.json).

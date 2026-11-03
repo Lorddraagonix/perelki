@@ -13,7 +13,7 @@
   <header class="intro">
     <p class="kicker">San Mateo · około 100 mil</p>
     <h1>Perełki</h1>
-    <p class="lede">Codzienna tablica klasyków: Mercedes SL, klasyczne Porsche i inne fajne auta. Na chodzie i do roboty.</p>
+    <p class="lede">Codzienna tablica klasyków do odsprzedaży: Mercedes, Porsche, BMW, auta japońskie, europejskie i amerykańskie. Na chodzie i do roboty.</p>
     <p class="updated">Aktualizacja: <time id="updated"></time></p>
   </header>
 
@@ -32,14 +32,28 @@
       <span>Szukaj</span>
       <input id="q" type="search" placeholder="np. 560SL, Oakland, manual" autocomplete="off" enterkeyhint="search">
     </label>
-    <div class="field">
-      <span id="cat-label">Kategoria</span>
-      <div class="seg" role="group" aria-labelledby="cat-label">
-        <button type="button" data-cat="all" aria-pressed="true">Wszystkie</button>
-        <button type="button" data-cat="sl" aria-pressed="false">Mercedes SL</button>
-        <button type="button" data-cat="porsche" aria-pressed="false">Porsche</button>
-        <button type="button" data-cat="inne" aria-pressed="false">Inne klasyki</button>
-      </div>
+    <div class="field-row">
+      <label class="field">
+        <span>Kategoria</span>
+        <select id="cat">
+          <option value="all">Wszystkie</option>
+          <option value="sl">Mercedes SL</option>
+          <option value="mercedes">Mercedes inne</option>
+          <option value="porsche">Porsche</option>
+          <option value="bmw">BMW</option>
+          <option value="audi">Audi</option>
+          <option value="alfa">Alfa Romeo</option>
+          <option value="japo">Japońskie</option>
+          <option value="euro">Inne europejskie</option>
+          <option value="us">Amerykańskie</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Marka</span>
+        <select id="brand">
+          <option value="all">Wszystkie marki</option>
+        </select>
+      </label>
     </div>
     <div class="field">
       <span id="cond-label">Stan</span>
@@ -67,8 +81,13 @@
           <option value="price">Najtańsze</option>
           <option value="dist">Najbliższe</option>
           <option value="new">Najnowsze</option>
+          <option value="profit">Największy potencjalny zysk</option>
         </select>
       </label>
+    </div>
+    <div class="seg" role="group" aria-label="Dodatkowe filtry">
+      <button type="button" id="only-profit" aria-pressed="false">Tylko z zyskiem</button>
+      <button type="button" id="only-rare" aria-pressed="false">Tylko rzadkie</button>
     </div>
   </form>
 
@@ -86,7 +105,7 @@
       <li><strong>Cena rynkowa</strong> — w widełkach podobnych sprzedaży.</li>
       <li><strong>Drogo</strong> — powyżej typowych cen albo tytuł salvage przy wysokiej cenie.</li>
     </ul>
-    <p>Ceny porównawcze to wyniki sprzedaży na Bring a Trailer z ostatnich tygodni. BaT to zwykle ładniejsze egzemplarze, więc auto z Craigslista w gorszym stanie może być warte mniej niż mediana.</p>
+    <p>Ceny porównawcze to wyniki sprzedaży na Bring a Trailer. Liczby przy „Szacunek” są tylko tam, gdzie jest świeży, podobny wynik. Jak go nie ma, karta pokazuje „brak danych”. Przy aukcji kupno to obecna oferta, nie cena młotka.</p>
     <p class="sources">Źródła: Craigslist (Bay Area i okolice), Bring a Trailer, ClassicCars.com.</p>
   </footer>
 

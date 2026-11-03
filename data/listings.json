@@ -1,14 +1,18 @@
 {
-  "updated": "2026-11-03T11:45:00-08:00",
-  "updatedLabel": "3 listopada 2026, 11:45 PT",
+  "updated": "2026-11-03T12:40:00-08:00",
+  "updatedLabel": "3 listopada 2026, 12:40 PT",
   "safety": "Nie wpłacaj zaliczki przed obejrzeniem auta. Sprawdź VIN i tytuł (salvage obniża wartość). Przy bardzo niskiej cenie zapytaj sprzedającego, dlaczego jest tak tanio.",
   "topPicks": [
-    "7985175975",
-    "7992932802",
-    "7993105083",
+    "cl-300d-87",
+    "cl-fj40-77",
+    "cl-lx450",
+    "cl-volvo-92",
+    "cl-supra-80",
+    "cl-mustang-67",
+    "7987871067",
     "7986589917",
-    "7984790463",
-    "7994376186"
+    "7985175975",
+    "bat-fzj80"
   ],
   "labels": {
     "deal": {
@@ -20,12 +24,36 @@
     },
     "category": {
       "sl": "Mercedes SL",
+      "mercedes": "Mercedes inne",
       "porsche": "Porsche",
-      "inne": "Inne klasyki"
+      "bmw": "BMW",
+      "audi": "Audi",
+      "alfa": "Alfa Romeo",
+      "japo": "Japońskie",
+      "euro": "Inne europejskie",
+      "us": "Amerykańskie"
     },
     "condition": {
       "run": "Na chodzie",
       "proj": "Projekt"
+    },
+    "brand": {
+      "mercedes": "Mercedes",
+      "porsche": "Porsche",
+      "bmw": "BMW",
+      "audi": "Audi",
+      "alfa": "Alfa Romeo",
+      "volvo": "Volvo",
+      "vw": "Volkswagen",
+      "datsun": "Datsun/Nissan",
+      "toyota": "Toyota",
+      "honda": "Honda",
+      "jaguar": "Jaguar",
+      "mg": "MG",
+      "triumph": "Triumph",
+      "healey": "Austin-Healey",
+      "ford": "Ford",
+      "chevrolet": "Chevrolet"
     }
   },
   "listings": [
@@ -47,7 +75,19 @@
       "posted": "2026-10-17",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 59000,
+        "sellAsIsValue": 62000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3000,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1970 Mercedes 280SL 4-biegowy sprzedany 17 paź 2026 za 62 000 $. To ogłoszenie ma automat, więc komparator jest mocniejszy niż to auto."
+      }
     },
     {
       "id": "7992932802",
@@ -67,7 +107,19 @@
       "posted": "2026-10-31",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 16500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7987871067",
@@ -87,7 +139,19 @@
       "posted": "2026-10-22",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 7700,
+        "sellAsIsValue": 11500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3800,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1984 Mercedes 380SL sprzedany 2 paź 2026 za 11 500 $. Rocznik obok (to jest 1983)."
+      }
     },
     {
       "id": "7984790463",
@@ -107,7 +171,19 @@
       "posted": "2026-10-16",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 3500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994682813",
@@ -132,7 +208,19 @@
         "Pilna sprzedaż",
         "Płatność krypto",
         "Cena bez negocjacji"
-      ]
+      ],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 4444,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984139817",
@@ -152,7 +240,19 @@
       "posted": "2026-10-15",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 11600,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993007187",
@@ -172,7 +272,19 @@
       "posted": "2026-10-31",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 18970,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7987130793",
@@ -192,7 +304,19 @@
       "posted": "2026-10-20",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 15000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993625085",
@@ -212,7 +336,19 @@
       "posted": "2026-11-01",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 18000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7979769106",
@@ -232,7 +368,19 @@
       "posted": "2026-10-07",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 8900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7985789682",
@@ -252,7 +400,19 @@
       "posted": "2026-10-18",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7978383150",
@@ -272,7 +432,19 @@
       "posted": "2026-10-05",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 28000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992808053",
@@ -292,7 +464,19 @@
       "posted": "2026-10-30",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10600,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984431120",
@@ -312,7 +496,19 @@
       "posted": "2026-10-16",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 9800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7990145280",
@@ -332,7 +528,19 @@
       "posted": "2026-10-26",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 8550,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7991465550",
@@ -352,7 +560,19 @@
       "posted": "2026-10-28",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 15888,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994071806",
@@ -372,7 +592,19 @@
       "posted": "2026-11-02",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 17995,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984120554",
@@ -392,7 +624,19 @@
       "posted": "2026-10-15",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 19800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993619295",
@@ -414,7 +658,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 2200,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993688760",
@@ -434,7 +690,19 @@
       "posted": "2026-11-01",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 79999,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994376186",
@@ -454,7 +722,19 @@
       "posted": "2026-11-02",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 39500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7986589917",
@@ -474,7 +754,19 @@
       "posted": "2026-10-19",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 3200,
+        "sellAsIsValue": 4500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 1300,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1974 Porsche 914 sprzedany 31 paź 2026 za 4 500 $. To ogłoszenie jest rozebrane, komparator nie opisuje kosza części."
+      }
     },
     {
       "id": "7989717966",
@@ -494,7 +786,19 @@
       "posted": "2026-10-25",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7989329805",
@@ -514,7 +818,19 @@
       "posted": "2026-10-24",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 7500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992218694",
@@ -534,7 +850,19 @@
       "posted": "2026-10-29",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 25000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994409486",
@@ -554,7 +882,19 @@
       "posted": "2026-11-02",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7986838095",
@@ -574,7 +914,19 @@
       "posted": "2026-10-20",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 16000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984721535",
@@ -596,7 +948,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 14000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7981514931",
@@ -616,7 +980,19 @@
       "posted": "2026-10-10",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 26991,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7989463785",
@@ -636,7 +1012,19 @@
       "posted": "2026-10-24",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 32500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7989471063",
@@ -656,7 +1044,19 @@
       "posted": "2026-10-24",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 33975,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7979263035",
@@ -676,7 +1076,19 @@
       "posted": "2026-10-06",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 38000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992217371",
@@ -698,7 +1110,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 35000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7991386812",
@@ -718,7 +1142,19 @@
       "posted": "2026-10-28",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 50000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993755066",
@@ -738,7 +1174,19 @@
       "posted": "2026-11-01",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 70993,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "bat-911sc",
@@ -758,7 +1206,19 @@
       "posted": null,
       "auctionEnd": "6 lis, 11:47 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 15500,
+        "sellAsIsValue": 23500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 8000,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: projekt 1980 911SC Targa sprzedany 10 paź 2026 za 23 500 $. Czyste coupe idą wyraźnie wyżej; tu bierzemy projekt jako ostrożny punkt."
+      }
     },
     {
       "id": "bat-996",
@@ -778,7 +1238,19 @@
       "posted": null,
       "auctionEnd": "8 lis, 10:03 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "porsche",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 19996,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993105083",
@@ -791,14 +1263,26 @@
       "url": "https://www.craigslist.org/view/d/san-rafael-mercedes-benz-300td-wagon/7GRhLRxPW6XecC39rDSD2h",
       "photo": "https://images.craigslist.org/00b0b_aVMZ2PXXEzc_0co0gw_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "perelka",
       "note": "Jeżdżące W123 kombi za 6 tys. $ (cena właśnie obniżona o 2 tys.). Sprzedawca od 15 lat robi przy tych autach. BaT 300TD: mediana ok. 24 tys. $. Minus: 265 tys. mil.",
       "marketNote": "BaT 300TD: mediana ok. 24 tys. $. Minus: 265 tys. mil.",
       "posted": "2026-10-31",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 6000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7990500531",
@@ -811,14 +1295,26 @@
       "url": "https://www.craigslist.org/view/d/redwood-city-rare-classic-1981-bmw-e24/pxVuPFVEVLnDsJsT9okwPo",
       "photo": "https://images.craigslist.org/00l0l_47KGGb7AAz8_0CI0q2_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "dobra",
       "note": "Euro wersja, 5 biegów, bez szyberdachu, oryginalne BBS, prawie bez rdzy, 15 tys. $ w serwis przez 7 lat. BaT E24: mediana ok. 22 tys. $.",
       "marketNote": "BaT E24: mediana ok. 22 tys. $.",
       "posted": "2026-10-26",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 14981,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994680665",
@@ -831,14 +1327,26 @@
       "url": "https://www.craigslist.org/view/d/san-mateo-1974-karma-ghia-make-offer-or/sXeaXqeRLLJxTjELt4Qs88",
       "photo": "https://images.craigslist.org/00R0R_4mslcRyIA2L_0t20CI_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "perelka",
       "note": "W samym San Mateo, 2 tys. $ albo zamiana. Potrzebna pełna renowacja, brakuje chromów, silnik i skrzynia są, trzeba lawetą. BaT Karmann Ghia: mediana ok. 22 tys. $.",
       "marketNote": "BaT Karmann Ghia: mediana ok. 22 tys. $.",
       "posted": "2026-11-03",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 2000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992472329",
@@ -851,14 +1359,26 @@
       "url": "https://www.craigslist.org/view/d/santa-clara-67-volvo-p1800/gNqpRkgeuYtrhtSVrkPixi",
       "photo": "https://images.craigslist.org/00g0g_3CrJf2E5jPT_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "perelka",
       "note": "P1800 za 3,5 tys. $: kompletny, 4 biegi z nadbiegiem, czysty tytuł, silnik chodzi. Ma rdzę – sprawdzić podłogi i progi. BaT P1800: mediana ok. 22 tys. $.",
       "marketNote": "BaT P1800: mediana ok. 22 tys. $.",
       "posted": "2026-10-30",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "volvo",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 3500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994380902",
@@ -871,14 +1391,26 @@
       "url": "https://www.craigslist.org/view/d/san-martin-1974-volkswagen-karmann-ghia/9jhDocqxynqpMuw375Ash1",
       "photo": "https://images.craigslist.org/00z0z_kO7KdE7BFsL_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "dobra",
       "note": "Ostatni rocznik, ładny lakier bez rdzy, oryginalne wnętrze, sprawny. 10 tys. $ sztywno. BaT: mediana ok. 22 tys. $.",
       "marketNote": "BaT: mediana ok. 22 tys. $.",
       "posted": "2026-11-02",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993746312",
@@ -891,14 +1423,26 @@
       "url": "https://www.craigslist.org/view/d/cotati-1959-low-light-karmann-ghia-coupe/oxJmCDoVrShTXJzWPAKsjN",
       "photo": "https://images.craigslist.org/00c0c_lLwC6mpAuFs_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "dobra",
       "note": "Wczesny „low light” – bardziej poszukiwany. Silnik 1600 chodził 5 lat temu, do blacharki i wnętrza. 12 tys. $ lub najlepsza oferta.",
       "marketNote": null,
       "posted": "2026-11-01",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984885026",
@@ -911,14 +1455,26 @@
       "url": "https://www.craigslist.org/view/d/el-verano-1978-datsun-280/fjqbBPM9yyxxbmothM9uBs",
       "photo": "https://images.craigslist.org/01515_Ej00bpuRGY_0CI0lN_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "japo",
       "deal": "dobra",
       "note": "Zdrowe podłużnice i podłoga, świeży smog, kompresja 170–180 psi. BaT 280Z: mediana ok. 23,5 tys. $.",
       "marketNote": "BaT 280Z: mediana ok. 23,5 tys. $.",
       "posted": "2026-10-16",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 13000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992283542",
@@ -931,14 +1487,26 @@
       "url": "https://www.craigslist.org/view/d/pleasanton-1984-bmw-633csi-e24/xvEukeyb9CYXUX5ZEur512",
       "photo": "https://images.craigslist.org/00t0t_csRbskv9vao_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "dobra",
       "note": "Jeździ, nowe opony, smog OK. 212 tys. mil i automat, ale 8,5 tys. $ to tanio na tle BaT (mediana E24 ok. 22 tys. $).",
       "marketNote": "Jeździ, nowe opony, smog OK. 212 tys. mil i automat, ale 8,5 tys. $ to tanio na tle BaT (mediana E24 ok. 22 tys. $).",
       "posted": "2026-10-30",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 8500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7987124856",
@@ -951,14 +1519,26 @@
       "url": "https://www.craigslist.org/view/d/mountain-view-1987-alfa-romeo-spider/62E7ti4bTXhyA91YaV2xA2",
       "photo": "https://images.craigslist.org/00C0C_gUbFEadxZge_0CI0lN_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "dobra",
       "note": "Jeździ, nowe zaciski, tarcze, świece, aktualna rejestracja. BaT Spider: mediana ok. 12,4 tys. $.",
       "marketNote": "BaT Spider: mediana ok. 12,4 tys. $.",
       "posted": "2026-10-20",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 6000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7981362414",
@@ -971,14 +1551,26 @@
       "url": "https://www.craigslist.org/view/d/santa-cruz-1988-alfa-romeo-veloce-spider/ndCmGiLAfZhMrieduK6Cm3",
       "photo": "https://images.craigslist.org/00o0o_jX10Tfuxk84_1u8176_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "dobra",
       "note": "Garażowana całe życie, idealny dach, bez wypadków. 8,8 tys. $ poniżej mediany BaT.",
       "marketNote": "Garażowana całe życie, idealny dach, bez wypadków. 8,8 tys. $ poniżej mediany BaT.",
       "posted": "2026-10-10",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 8800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7978127991",
@@ -991,14 +1583,26 @@
       "url": "https://www.craigslist.org/view/d/el-cerrito-vw-bus-type-transporter-1968/io6fKE4YEiv6cqYVcvXj4i",
       "photo": "https://images.craigslist.org/00c0c_hahTcUPYLc0_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "dobra",
       "note": "Silnik, zawieszenie, hamulce po remoncie, nowe opony. Nadal projekt: trochę rdzy, brak tapicerki.",
       "marketNote": null,
       "posted": "2026-10-04",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7988306940",
@@ -1011,14 +1615,26 @@
       "url": "https://www.craigslist.org/view/d/san-leandro-datsun-280z/hUBtckMyJwf4ZpTNcVQGbi",
       "photo": "https://images.craigslist.org/00U0U_54gsGtxxb0p_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "japo",
       "deal": "dobra",
       "note": "Jeździ, ale karoseria przegniła. 1,6 tys. $ jako dawca części.",
       "marketNote": null,
       "posted": "2026-10-22",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 1600,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7987379247",
@@ -1031,14 +1647,26 @@
       "url": "https://www.craigslist.org/view/d/sebastopol-sd/iWHCCkoMQsbnBYg7YvMQYV",
       "photo": "https://images.craigslist.org/01414_eKS23yqA1rR_0CI0lN_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "dobra",
       "note": "Niezajeżdżony, 107 tys. mil. Rejestracja Nevada, skrzynia redukuje na ciepło – podciśnienie do diagnozy. Trzeba lawetą.",
       "marketNote": null,
       "posted": "2026-10-21",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 2500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "bat-230ge",
@@ -1051,14 +1679,26 @@
       "url": "https://bringatrailer.com/listing/1987-mercedes-benz-230ge/",
       "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/1987_mercedes-benz_230g_1987_mercedes-benz_230g_dbc01567-e49b-4168-a536-8bcc5eb04684-2fp1O4-21434-21435-scaled-1-copy-2026-10-12-6l5-28418.jpg?w=470&h=318&crop=1",
       "condition": "run",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "aukcja",
       "note": "Rzadka G-klasa kabrio z Holandii, sprowadzona w 2024, 63 tys. km. Cena to aktualna oferta.",
       "marketNote": null,
       "posted": null,
       "auctionEnd": "9 lis, 13:22 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 25000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "bat-280sel",
@@ -1071,14 +1711,26 @@
       "url": "https://bringatrailer.com/listing/1969-mercedes-benz-280sel-sedan-3/",
       "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_6759-scaled-copy-2026-10-21-k1y-b1af0275a42dc5cc7c2d50d20b826c1c.jpg?w=470&h=318&crop=1",
       "condition": "run",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "aukcja",
       "note": "Kalifornijski od nowości, czarne tablice CA, odświeżony mechanicznie i wizualnie po 2021. Koniec aukcji już jutro.",
       "marketNote": null,
       "posted": null,
       "auctionEnd": "4 lis, 12:29 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 19500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "bat-2002",
@@ -1091,14 +1743,26 @@
       "url": "https://bringatrailer.com/listing/1974-bmw-2002-171/",
       "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/IMG_0120-scaled-copy-2026-10-28-4nv-76a5f5c6dc14373777d2141a82414fb4.jpg?w=470&h=318&crop=1",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "aukcja",
       "note": "Sprężyny H&R, Bilstein, felgi Rota. BaT 2002: mediana ok. 22 tys. $, więc warto obserwować.",
       "marketNote": "BaT 2002: mediana ok. 22 tys. $, więc warto obserwować.",
       "posted": null,
       "auctionEnd": "9 lis, 12:38 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "bat-westy",
@@ -1111,14 +1775,26 @@
       "url": "https://bringatrailer.com/listing/1984-volkswagen-vanagon-westfalia-47/",
       "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/1984_volkswagen_vanagon-westfalia_1984_volkswagen_vanagon-westfalia_3673a8dd-b9e2-4f3f-a538-cad50c789670-7lKpS1-328335e04cb34acf2043549ad3d9526d-5f243edba4-9e8cfb104d8ba17f0b7ff98bfdf6878a.jpg?w=470&h=318&crop=1",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "aukcja",
       "note": "Kamper z podnoszonym dachem, kuchenką i lodówką. Bez ceny minimalnej – sprzeda się za ostatnią ofertę.",
       "marketNote": null,
       "posted": null,
       "auctionEnd": "7 lis, 12:28 PT",
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 5000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "cc-1600",
@@ -1131,14 +1807,26 @@
       "url": "https://classiccars.com/listings/view/1933702/1967-bmw-1600-for-sale-in-burlingame-california-94010",
       "photo": "https://photos.classiccars.com/cc-temp/listing/193/3702/51496573-1967-bmw-1600-std.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "rynek",
       "note": "Poprzednik 2002, rzadko spotykany. Ogłoszenie komisowe, data wystawienia nieznana – zadzwonić, czy aktualne.",
       "marketNote": null,
       "posted": null,
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 15800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7991298852",
@@ -1151,14 +1839,26 @@
       "url": "https://www.craigslist.org/view/d/oakland-1989-e30-bmw-325ix-touring/oPnyvZBScfGKiMaZKVFFxo",
       "photo": "https://images.craigslist.org/00w0w_4eOKpm7IK1G_0t20CI_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "bmw",
       "deal": "rynek",
       "note": "Rzadkie: 325ix touring nie był sprzedawany w USA. Brak kompresji na 5 i 6 cylindrze (pewnie uszczelka pod głowicą), trochę rdzy, stroker.",
       "marketNote": null,
       "posted": "2026-10-28",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 25000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7986582384",
@@ -1171,14 +1871,26 @@
       "url": "https://www.craigslist.org/view/d/roseville-1988-bmw-635csi-classic-e24/6xwbYX6WaVCMLaKn4nggRa",
       "photo": "https://images.craigslist.org/00T0T_hCwoIKwktFL_0x20oM_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "rynek",
       "note": "35 lat w rodzinie, bez rdzy, jeździ. 252 tys. mil.",
       "marketNote": null,
       "posted": "2026-10-19",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992715773",
@@ -1191,14 +1903,26 @@
       "url": "https://www.craigslist.org/view/d/napa-1982-datsun-720-king-cab-deluxe/aDvnYbtvTYZ9QmuyTSRSJD",
       "photo": "https://images.craigslist.org/00a0a_LxoxenF2QM_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "japo",
       "deal": "rynek",
       "note": "Silnik i głowica po remoncie, dużo nowych części.",
       "marketNote": null,
       "posted": "2026-10-30",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7986165888",
@@ -1211,14 +1935,26 @@
       "url": "https://www.craigslist.org/view/d/pleasanton-1974-volkswagen-karmann-ghia/pUBynE1RYjUVk61JVk2aGm",
       "photo": "https://images.craigslist.org/00w0w_3fbdk311ppg_0mQ0h8_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Odrestaurowany kabriolet. Wgniecenie na prawym przednim błotniku, licznik nie działa.",
       "marketNote": null,
       "posted": "2026-10-19",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 18500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7985705703",
@@ -1231,14 +1967,26 @@
       "url": "https://www.craigslist.org/view/d/los-gatos-1970-karmann-ghia-coupe/rTWMjnreAbRWa8cH7BowaB",
       "photo": "https://images.craigslist.org/00m0m_36zGH111uMW_0CI0t2_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Odrestaurowany 18 lat temu, oryginalny kolor, nigdy nie rozbity, przednie hamulce tarczowe.",
       "marketNote": null,
       "posted": "2026-10-18",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 24500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7983124383",
@@ -1251,14 +1999,26 @@
       "url": "https://www.craigslist.org/view/d/berkeley-1977-alfa-romeo-spider-20l/oSRoZrXJjjLfck8Gq4p89Q",
       "photo": "https://images.craigslist.org/00G0G_gi5gfF7VUPT_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "rynek",
       "note": "Lakier i skóra z 2017, nowe sprzęgło. Cena w okolicy mediany BaT.",
       "marketNote": "Cena w okolicy mediany BaT.",
       "posted": "2026-10-13",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7982432373",
@@ -1271,14 +2031,26 @@
       "url": "https://www.craigslist.org/view/d/monterey-1991-alfa-romeo-spider-veloce/tRM4qYXQou56gdP67T4hNu",
       "photo": "https://images.craigslist.org/00v0v_cKwFevU8hgR_0wc0ng_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "rynek",
       "note": "Manual, 84 tys. mil, beżowa skóra.",
       "marketNote": null,
       "posted": "2026-10-12",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 12000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7985301552",
@@ -1291,14 +2063,26 @@
       "url": "https://www.craigslist.org/view/d/santa-rosa-alfa-romeo/jJFtuQ55deSEnw9RNSwsKs",
       "photo": "https://images.craigslist.org/00t0t_dsNODEyXBgl_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "rynek",
       "note": "Komis. 116 tys. mil.",
       "marketNote": null,
       "posted": "2026-10-17",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 10800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7993168728",
@@ -1311,14 +2095,26 @@
       "url": "https://www.craigslist.org/view/d/sloughhouse-1991-bmw-318is-coupe-speed/vpE3uDALc95y2MZbbS2y8e",
       "photo": "https://images.craigslist.org/00Y0Y_8FvpshPexcZ_0x20oM_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "rynek",
       "note": "Świeży lakier, dużo mechaniki zrobionej, smog OK. Licznik wymieniony, prawdziwy przebieg wyższy.",
       "marketNote": null,
       "posted": "2026-10-31",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 14000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7989429876",
@@ -1331,14 +2127,26 @@
       "url": "https://www.craigslist.org/view/d/santa-rosa-1971-vw-bus/hwBJSGmW49aXhE5mYdUnHk",
       "photo": "https://images.craigslist.org/00t0t_cqzRicQTeYi_07K0ak_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Nierestaurowany, solidny, przód i hamulce zrobione, odbudowana skrzynia.",
       "marketNote": null,
       "posted": "2026-10-24",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 15000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7984124895",
@@ -1351,14 +2159,26 @@
       "url": "https://www.craigslist.org/view/d/oakland-1972-datsun-510-rebello-built/xwMZpLMQV3QGqx8uQZHjLU",
       "photo": "https://images.craigslist.org/00W0W_g4Ftn2sSlOJ_0ak07K_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "japo",
       "deal": "rynek",
       "note": "Silnik Rebello L20B 200 KM (800 mil po budowie), klatka, legalny na ulicę. Dla fana torów.",
       "marketNote": null,
       "posted": "2026-10-15",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 25000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7986267195",
@@ -1371,7 +2191,7 @@
       "url": "https://www.craigslist.org/view/d/modesto-1970-volkswagen-beetle-fully/phuH77uhRwZ51wHQGrY9hV",
       "photo": "https://images.craigslist.org/00F0F_icPqz4Ktxx4_0CI0t2_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Pełna renowacja, nowy silnik, ale tytuł salvage.",
       "marketNote": null,
@@ -1380,7 +2200,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 14500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7992252387",
@@ -1393,14 +2225,26 @@
       "url": "https://www.craigslist.org/view/d/alameda-1982-mercedes-300d/bJXxS8XNNWkbapMqi5JsLT",
       "photo": "https://images.craigslist.org/00R0R_rOJlo7gCbd_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "rynek",
       "note": "Grat, ale jeździ (problem ze zbiornikiem paliwa). 290 tys. mil, rejestracja wygasła.",
       "marketNote": null,
       "posted": "2026-10-29",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 1500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7990396770",
@@ -1413,14 +2257,26 @@
       "url": "https://www.craigslist.org/view/d/berkeley-1989-volvo-240-dl-210k/k5XLSeL8EdW8uQXsTWhz8X",
       "photo": "https://images.craigslist.org/00r0r_b7PkrOjLSJH_0CI0t2_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Nie jeździ od 2 lat, fotele zniszczone. Najlepsza oferta.",
       "marketNote": null,
       "posted": "2026-10-26",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "volvo",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 3000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994168115",
@@ -1433,14 +2289,26 @@
       "url": "https://www.craigslist.org/view/d/soquel-1983-vanagon-project/c2BCy5NoVS24JpHNNZ6J8z",
       "photo": "https://images.craigslist.org/00n0n_iRZFrl10Vhf_0t20CI_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Do lakieru, blacha w dobrym stanie, dach z włókna OK.",
       "marketNote": null,
       "posted": "2026-11-02",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 1000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7978942323",
@@ -1453,7 +2321,7 @@
       "url": "https://www.craigslist.org/view/d/santa-cruz-1967-volkswagen-beetle-runs/2ReWGyv2QYgKMH1QfvjCkp",
       "photo": "https://images.craigslist.org/00303_d4gROOIT8ic_0t20CI_600x450.jpg",
       "condition": "proj",
-      "category": "inne",
+      "category": "euro",
       "deal": "rynek",
       "note": "Pierwszy rocznik 12V, jeździ, rdza do naprawy. Duplikat tytułu w trakcie.",
       "marketNote": null,
@@ -1462,7 +2330,19 @@
       "scamWarning": null,
       "flags": [
         "Duplikat tytułu"
-      ]
+      ],
+      "brand": "vw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 3999,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7978651062",
@@ -1475,14 +2355,26 @@
       "url": "https://www.craigslist.org/view/d/petaluma-1982-alfa-romeo-spider-veloce/vAPC7JUc1GrYiprwgDHcxc",
       "photo": "https://images.craigslist.org/00N0N_lXpVLfFDiep_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "alfa",
       "deal": "drogo",
       "note": "84 tys. mil, smog OK. 18 tys. $ to wyraźnie powyżej mediany BaT (12,4 tys.).",
       "marketNote": "84 tys. mil, smog OK. 18 tys. $ to wyraźnie powyżej mediany BaT (12,4 tys.).",
       "posted": "2026-10-05",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "alfa",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 18000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7979019747",
@@ -1495,14 +2387,26 @@
       "url": "https://www.craigslist.org/view/d/fremont-bmw-e30/gVYcwP8DKsgPgvLd9Wnuyz",
       "photo": "https://images.craigslist.org/01515_lONm87QWgbc_0CI0lN_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "drogo",
       "note": "17 tys. $ za 318i ze 145 tys. mil to dużo. Krótkie ogłoszenie.",
       "marketNote": null,
       "posted": "2026-10-06",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 17000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7989305688",
@@ -1515,7 +2419,7 @@
       "url": "https://www.craigslist.org/view/d/woodland-1973-datsun-240z-original-one/wzMTGhCDtDxmXCqY9vBHyd",
       "photo": "https://images.craigslist.org/00e0e_eYgrTYSrBt7_0t20lM_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "japo",
       "deal": "drogo",
       "note": "Jeden właściciel od nowości, ale tytuł salvage (szkoda blacharska w 2002). BaT 240Z: mediana ok. 32,8 tys. $ – za salvage to za dużo.",
       "marketNote": "BaT 240Z: mediana ok. 32,8 tys. $ – za salvage to za dużo.",
@@ -1524,7 +2428,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 30000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7981757871",
@@ -1537,7 +2453,7 @@
       "url": "https://www.craigslist.org/view/d/monterey-1975-bmw-2002/h2WC4cPh4WHE65LgoUQD7b",
       "photo": "https://images.craigslist.org/00a0a_4oyge0FPrlf_0t20CI_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "bmw",
       "deal": "drogo",
       "note": "Bez rdzy, silnik po remoncie, 5 biegów, ale tytuł salvage. BaT 2002: mediana ok. 22 tys. $.",
       "marketNote": "BaT 2002: mediana ok. 22 tys. $.",
@@ -1546,7 +2462,19 @@
       "scamWarning": null,
       "flags": [
         "Tytuł salvage"
-      ]
+      ],
+      "brand": "bmw",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 27500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7994543970",
@@ -1559,14 +2487,26 @@
       "url": "https://www.craigslist.org/view/d/hayward-1979-nissan-datsun-620/rtG99uPNpicrnUDtMvWUty",
       "photo": "https://images.craigslist.org/00o0o_2mUzhhMX2d_0CI0t2_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "japo",
       "deal": "drogo",
       "note": "Nowy lakier, 5 biegów. BaT pickupy Datsun: mediana ok. 11 tys. $.",
       "marketNote": "BaT pickupy Datsun: mediana ok. 11 tys. $.",
       "posted": "2026-11-03",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "datsun",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 16500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
     },
     {
       "id": "7990504581",
@@ -1579,14 +2519,1312 @@
       "url": "https://www.craigslist.org/view/d/sacramento-1985-mercedes-300d-diesel/cQj2ZpbxkyZZndRPzSijVA",
       "photo": "https://images.craigslist.org/00S0S_apb3unl0V6I_0CI0t2_600x450.jpg",
       "condition": "run",
-      "category": "inne",
+      "category": "mercedes",
       "deal": "drogo",
       "note": "Bardzo zadbany, ale 28,9 tys. $ to dużo: BaT 300D sedan zwykle 5–9 tys. $.",
       "marketNote": "Bardzo zadbany, ale 28,9 tys. $ to dużo: BaT 300D sedan zwykle 5–9 tys. $.",
       "posted": "2026-10-26",
       "auctionEnd": null,
       "scamWarning": null,
-      "flags": []
+      "flags": [],
+      "brand": "mercedes",
+      "rare": false,
+      "know": null,
+      "profit": {
+        "buyPrice": 28900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": null
+      }
+    },
+    {
+      "id": "cl-300d-87",
+      "title": "1987 Mercedes 300D Turbo (W124), 280 tys. mil",
+      "price": 1800,
+      "mileage": 280000,
+      "city": "Sacramento",
+      "distanceMiles": 83,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/sacramento-mercedes-dt-mercedes-2009/qdHTtsVT6XtSLHy27bfWez",
+      "photo": "https://images.craigslist.org/00909_3mjd6tEJvad_0pO0jm_600x450.jpg",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "perelka",
+      "note": "Ostatni amerykański 300D turbo na W124, 20 lat u jednego właściciela, skrzynia zrobiona 60 tys. mil temu, nowe opony i sprężarka klimy. Stoi na non-op, lakier na masce schodzi, linka szyberdachu zerwana. Bez smogu.",
+      "marketNote": null,
+      "posted": "2026-10-18",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "W124 diesel turbo (OM603) jest prostszy niż późniejsze CDI: mechaniczny wtrysk, ale lubi głowicę i układ podciśnienia. Sprawdzić, czy non-op da się odpalić na zimno i czy nie ma mleka pod korkiem.",
+      "profit": {
+        "buyPrice": 1800,
+        "sellAsIsValue": 8100,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 6300,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1987 Mercedes 300D Turbo sprzedany 3 lis 2026 za 8 100 $. Przebieg tamtego auta nie jest w tytule wyniku."
+      }
+    },
+    {
+      "id": "cl-fj40-77",
+      "title": "1977 Toyota Land Cruiser FJ40",
+      "price": 9200,
+      "mileage": null,
+      "city": "Santa Rosa",
+      "distanceMiles": 64,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/santa-rosa-1977-toyota-landcruiser-fj40/q7uNsf4qAe92pYXDgjyvK9",
+      "photo": "https://images.craigslist.org/00K0K_d5rGrZBj20v_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "dobra",
+      "note": "Jeździ. Silnik 2F, skrzynia 4-biegowa, nowa chłodnica, nowe sprzęgło, nowy pompa hamulcowa. Felgi aftermarket 16 cali.",
+      "marketNote": null,
+      "posted": "2026-10-25",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "FJ40 z 2F jest prosty w serwisie, ale rama i tylna podłoga rdzewieją od środka. Tu sprzedawca pisze, że jeździ; i tak zajrzeć pod dywaniki i w mocowania resorów.",
+      "profit": {
+        "buyPrice": 9200,
+        "sellAsIsValue": 15000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 5800,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1976 Toyota Land Cruiser FJ40 sprzedany 27 paź 2026 za 15 000 $. Ładniejszy 1977 ze skrzynią 5-biegową poszedł 6 paź 2026 za 36 500 $ — tego nie bierzemy jako ceny as-is."
+      }
+    },
+    {
+      "id": "cl-lx450",
+      "title": "1996 Lexus LX450 (FZJ80), oryginał",
+      "price": 12500,
+      "mileage": null,
+      "city": "Gilroy",
+      "distanceMiles": 57,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/gilroy-1996-lexus-lx450-lx-450-awd/rDqUYuhaviwmvyR2Z5mUwh",
+      "photo": "https://images.craigslist.org/00s0s_gqRbKGOfAh6_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "dobra",
+      "note": "Lexusowa wersja Land Cruisera 80 z silnikiem 1FZ-FE. Sprzedawca: bez wypadków w CARFAX, normalne zużycie, historia serwisowa z Teksasu i Kalifornii.",
+      "marketNote": null,
+      "posted": "2026-10-13",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "LX450 to FZJ80 z lat 1996–1997, z blokadami i wyższym wyposażeniem. Słaby punkt serii 80: rdza ramy przy tylnej osi i stan skrzyni A343. Przebieg w ogłoszeniu niepodany.",
+      "profit": {
+        "buyPrice": 12500,
+        "sellAsIsValue": 19500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 7000,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1996 Toyota Land Cruiser FZJ80 sprzedany 31 paź 2026 za 19 500 $. To ten sam 80-serii; LX450 jest wersją Lexusa."
+      }
+    },
+    {
+      "id": "cl-4runner-95",
+      "title": "1995 Toyota 4Runner SR5 4x4, manual, 386 tys. mil",
+      "price": 3800,
+      "mileage": 386000,
+      "city": "Oakland",
+      "distanceMiles": 16,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/oakland-1995-toyota-4runner-sr5-4x4/tvey1e1fM3kevTiYpGm6P6",
+      "photo": "https://images.craigslist.org/00J0J_ci8bRQtF69k_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "rynek",
+      "note": "Manual, 4x4, sprzedawca pisze o braku rdzy ramy i segregatorze serwisu z 20 lat. Licznik 386 tys. mil.",
+      "marketNote": null,
+      "posted": "2026-11-01",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Druga generacja 4Runner z manualem i 4x4 jest poszukiwana, ale przy takim przebiegu liczy się kompresja silnika 3.0 i stan ramy, nie naklejki. Świeże sprzedaże BaT to auta o nieporównanie mniejszym przebiegu, więc nie podstawiam ich ceny.",
+      "profit": {
+        "buyPrice": 3800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Na BaT 23 paź 2026 1993 4Runner SR5 V6 4WD 5-biegowy sprzedany za 15 000 $ — za mało wiadomo o jego przebiegu, żeby porównać z 386 tys. mil."
+      }
+    },
+    {
+      "id": "cl-volvo-92",
+      "title": "1992 Volvo 240 kombi, 142 tys. mil",
+      "price": 4500,
+      "mileage": 142000,
+      "city": "Fair Oaks",
+      "distanceMiles": 93,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/fair-oaks-1992-volvo-240-wagon/hvU17PJmxEJxqMfD4tZS8M",
+      "photo": "https://images.craigslist.org/00P0P_3XF6d00Wkeb_0CI0pV_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "volvo",
+      "deal": "dobra",
+      "note": "Czysty tytuł, 142 tys. mil, aktualny smog. Do zrobienia zbieżność, tylne hamulce piszczą mimo nowych klocków. Paragony z okresu właściciela.",
+      "marketNote": null,
+      "posted": "2026-10-22",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "240 jest proste i trwałe. Warto sprawdzić przewody paliwa przy tylnej osi i luzy w tulejach tylnego mostu. Kombi z niskim jak na 240 przebiegiem jest łatwiejsze do sprzedaży niż sedan.",
+      "profit": {
+        "buyPrice": 4500,
+        "sellAsIsValue": 7500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3000,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1992 Volvo 240 kombi sprzedane 26 paź 2026 za 7 500 $. Inne 1992 kombi z 5-biegową skrzynią poszło 8 paź za 12 250 $ — tu nie wiadomo, czy jest manual."
+      }
+    },
+    {
+      "id": "cl-volvo-90",
+      "title": "1990 Volvo 240 DL kombi, tytuł salvage",
+      "price": 3500,
+      "mileage": null,
+      "city": "Carmel",
+      "distanceMiles": 74,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/carmel-1990-volvo-240-dl-for-sale-by/6sNxZ9M11gh7d5BNtzAWGC",
+      "photo": "https://images.craigslist.org/00T0T_9Mm877f6g3S_0CI0t2_600x450.jpg",
+      "condition": "proj",
+      "category": "euro",
+      "brand": "volvo",
+      "deal": "rynek",
+      "note": "Trzeci właściciel, garażowane. Salvage, bo gałąź uszkodziła dach z tyłu. Jest rdza z tyłu nadwozia. Cena albo najlepsza oferta.",
+      "marketNote": null,
+      "posted": "2026-10-20",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [
+        "Tytuł salvage"
+      ],
+      "rare": false,
+      "know": "Salvage od drzewa to nie wypadek drogowy, ale dach i słupki trzeba obejrzeć, zanim policzy się naprawę. Bez kosztorysu blacharza nie ma liczby na części.",
+      "profit": {
+        "buyPrice": 3500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 9 wrz 2026 sprzedał 1990 240 DL sedan za 3 900 $ — to sedan bez salvage, nie to kombi."
+      }
+    },
+    {
+      "id": "cl-supra-80",
+      "title": "1980 Toyota Celica Supra, manual",
+      "price": 6000,
+      "mileage": 67000,
+      "city": "San Francisco",
+      "distanceMiles": 15,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-francisco-1980-toyota-supra-celica/vP4Cy8MvejPno2aoDu2Yhq",
+      "photo": "https://images.craigslist.org/00000_btUD6HjzAic_0li0kg_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "dobra",
+      "note": "Jeździ, manual, aktualny smog i rejestracja, czysty tytuł. Sprzedawca podaje licznik 67 tys. mil i stary VIN, którego nie widać w nowszych bazach. Okolice Cow Palace.",
+      "marketNote": null,
+      "posted": "2026-10-29",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "To wczesna Celica Supra (A40), nie MK3 ani MK4. Rzadziej spotykana niż późniejsze Supry, ale części blacharskie są trudne. Licznik bez potwierdzenia VIN-em trzeba traktować ostrożnie.",
+      "profit": {
+        "buyPrice": 6000,
+        "sellAsIsValue": 9151,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3151,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1979 Toyota Celica Supra sprzedana 25 paź 2026 za 9 151 $. Rocznik obok."
+      }
+    },
+    {
+      "id": "cl-z3-96",
+      "title": "1996 BMW Z3 roadster, 92 tys. mil",
+      "price": 7900,
+      "mileage": 92400,
+      "city": "El Sobrante",
+      "distanceMiles": 28,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/el-sobrante-1996-bmw-z3-roadster/bNocntiKtXmzbFokH8Nq8s",
+      "photo": "https://images.craigslist.org/00l0l_iUr3UdhWOWl_0lM0t2_600x450.jpg",
+      "condition": "run",
+      "category": "bmw",
+      "brand": "bmw",
+      "deal": "rynek",
+      "note": "Pierwszy rok Z3 w USA według sprzedawcy. 92,4 tys. mil, smog z 5 paź 2026, czarny. Ogłoszenie nie podaje pojemności silnika.",
+      "marketNote": null,
+      "posted": "2026-10-05",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "W 1996 do USA szedł głównie silnik 1.9. Na BaT świeże wyniki to przede wszystkim mocniejsze 2.8, więc nie podstawiam ich ceny pod to auto. Słabe punkty Z3: tylne nadkola i koszyk zawieszenia.",
+      "profit": {
+        "buyPrice": 7900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał Z3 2.8 za 5 600–11 000 $. To inny silnik niż prawdopodobne 1.9 z 1996."
+      }
+    },
+    {
+      "id": "cl-z3-30",
+      "title": "2001 BMW Z3 3.0i M Sport, automat",
+      "price": 10000,
+      "mileage": 112000,
+      "city": "San Mateo",
+      "distanceMiles": 1,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-mateo-2001-bmw-z3-30i-2dr-msport/ef1MCcowV7kZ6EFvFTBAoF",
+      "photo": "https://images.craigslist.org/01212_eNRNk4u5eO2_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "bmw",
+      "brand": "bmw",
+      "deal": "rynek",
+      "note": "3.0i, pakiet M Sport, automat z trybem ręcznym, 112 tys. mil, Topaz Blue. Właściciel nie śpieszy się ze sprzedażą.",
+      "marketNote": null,
+      "posted": "2026-10-07",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "3.0 jest najmocniejszym zwykłym Z3, ale automat jest wyraźnie mniej chodliwy niż skrzynia ręczna. M Sport dodaje fotele i zawieszenie, nie robi z niego M Roadstera.",
+      "profit": {
+        "buyPrice": 10000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Świeże sprzedaże BaT dotyczą Z3 ze skrzynią ręczną (np. 2001 2.5i 5-biegowy, 24 tys. mil, 18 paź 2026 za 16 250 $), nie automatu ze 112 tys. mil."
+      }
+    },
+    {
+      "id": "cl-z3-coupe",
+      "title": "2001 BMW Z3 Coupe 3.0, 5 biegów, 10,8 tys. mil",
+      "price": 21999,
+      "mileage": 10800,
+      "city": "Salinas",
+      "distanceMiles": 72,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/salinas-bmw-z3-coupe-five-sp/a8TW9TsJ9e1bx4RQyVfR3r",
+      "photo": "https://images.craigslist.org/00K0K_7AVA7d3czYn_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "bmw",
+      "brand": "bmw",
+      "deal": "rynek",
+      "note": "Coupe, nie roadster. 10 800 mil, skrzynia ręczna, wnętrze w bardzo dobrym stanie. Lakier przerabiany na kolor spoza palety BMW (sprzedawca pisze o zieleni w stylu Mazdy), odpryski na masce.",
+      "marketNote": null,
+      "posted": "2026-10-23",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Nadwozie coupe jest rzadsze niż roadster, ale bez liczby z fabryki nie oznaczam go jako rzadkie. Lakier niefabryczny obniża cenę względem oryginalnego koloru. Przy Z3 coupe sprawdzić spawy tylnych kielichów.",
+      "profit": {
+        "buyPrice": 21999,
+        "sellAsIsValue": 18000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": -3999,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1999 BMW Z3 Coupe 2.8 sprzedane 5 paź 2026 za 18 000 $. To słabszy silnik i inny stan lakieru; prośba 21 999 $ jest już powyżej tej sprzedaży."
+      }
+    },
+    {
+      "id": "cl-crx-87",
+      "title": "1987 Honda CRX DX",
+      "price": 8000,
+      "mileage": null,
+      "city": "Gilroy",
+      "distanceMiles": 57,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/gilroy-1987-honda-crx-dx/vjWGvTza479vcDHTxRG2Jx",
+      "photo": "https://images.craigslist.org/00p0p_1L0bQamTNDH_10Z0OE_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "honda",
+      "deal": "rynek",
+      "note": "DX, czysty według sprzedawcy, nowe wnętrze, nowe opony, gaźnik zrobiony pod smog. Jeździ.",
+      "marketNote": null,
+      "posted": "2026-11-02",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "DX to wersja bazowa, nie Si. Na BaT chodzą głównie Si i mocne swapy, więc nie ma tu uczciwego komparatora dla seryjnego DX. Rdza lubi progi i kielichy.",
+      "profit": {
+        "buyPrice": 8000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Świeże wyniki BaT to CRX Si (np. 20 000–26 500 $), a to jest DX."
+      }
+    },
+    {
+      "id": "cl-crx-88",
+      "title": "1988 Honda CRX, swap B20, tytuł salvage",
+      "price": 4500,
+      "mileage": null,
+      "city": "Santa Clara",
+      "distanceMiles": 25,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/santa-clara-1988-honda-crx-b20vtec-b16/kjXgg9FG821HHxWokXLpGD",
+      "photo": "https://images.craigslist.org/00V0V_aAt50TjkHlw_0dq0t2_600x450.jpg",
+      "condition": "proj",
+      "category": "japo",
+      "brand": "honda",
+      "deal": "rynek",
+      "note": "Salvage, non-op. Silnik B20 z głowicą GSR, skrzynia z B16, poniżej 1000 mil po składaniu silnika. Fotele Bride, przód zrobiony, tył na tarczach.",
+      "marketNote": null,
+      "posted": "2026-10-17",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [
+        "Tytuł salvage"
+      ],
+      "rare": false,
+      "know": "Swap i salvage znaczą, że to auto do zabawy, nie czysty CRX Si. Bez przeglądu spawów i papierów smogu nie da się policzyć części.",
+      "profit": {
+        "buyPrice": 4500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Najbliższy wynik BaT to doładowany 1988 CRX ze swapem B18, sprzedany 29 wrz 2026 za 14 000 $ — inny zakres przeróbek i nie salvage."
+      }
+    },
+    {
+      "id": "cl-mr2-91",
+      "title": "1991 Toyota MR2, automat, 171 tys. mil",
+      "price": 4500,
+      "mileage": 171000,
+      "city": "Los Gatos",
+      "distanceMiles": 31,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/los-gatos-1991-toyota-mr2-auto-runs/tRGNGm5jXC4VMWm3ghqDR5",
+      "photo": "https://images.craigslist.org/00j0j_iCROMG6IqS7_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "rynek",
+      "note": "SW20, automat, jeździ, świeży smog, czysty tytuł, prawie seryjny. 171 tys. mil.",
+      "marketNote": null,
+      "posted": "2026-11-02",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Druga generacja MR2 z automatem jest wyraźnie tańsza niż turbo ze skrzynią ręczną. Sprawdzić 5S-FE pod kątem wycieków i czy tylne zawieszenie nie stuka.",
+      "profit": {
+        "buyPrice": 4500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 14 paź 2026 sprzedał 1991 MR2 Turbo 5-biegowe za 20 000 $ — to turbo, nie wolnossące z automatem."
+      }
+    },
+    {
+      "id": "cl-mr2-85",
+      "title": "1985 Toyota MR2",
+      "price": 8500,
+      "mileage": null,
+      "city": "Rancho Cordova",
+      "distanceMiles": 89,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/rancho-cordova-toyota-mr2-1985/gFd6JpndqiTtPXmujkwUty",
+      "photo": "https://images.craigslist.org/00C0C_kl0DWHhuAjO_1320AA_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "rynek",
+      "note": "Pierwsza generacja (AW11). Sprzedawca chce tylko telefony i gotówkę. Przebieg w ogłoszeniu niepodany.",
+      "marketNote": null,
+      "posted": "2026-10-04",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "AW11 jest lekkie i proste, dopóki silnik 4A-GE jest seryjny. Bez przebiegu i zdjęć podwozia nie ma z czego policzyć zysku. Ogłoszenie ostrzega przed oszustami — i tak oglądać osobiście.",
+      "profit": {
+        "buyPrice": 8500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 2 wrz 2026 sprzedał 1988 MR2 Supercharged za 26 000 $. To doładowana wersja, nie podstawowe 1985."
+      }
+    },
+    {
+      "id": "cl-mgb",
+      "title": "1974 MGB roadster",
+      "price": 6500,
+      "mileage": null,
+      "city": "Alameda",
+      "distanceMiles": 14,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/alameda-1974-mgb-convertible/nVhvscc7tP9d9x5QP6XSpD",
+      "photo": "https://images.craigslist.org/00c0c_6o72i0KpISs_0CI0mr_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "mg",
+      "deal": "rynek",
+      "note": "Zielony, wnętrze Autumn Leaf, jeździ. Głowica robiona w kwietniu 2026, część zawieszenia w 2024. Dach w dobrym stanie.",
+      "marketNote": null,
+      "posted": "2026-10-27",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "MGB z gumowymi zderzakami (od 1974.5) są mniej poszukiwane niż chromowane. Silnik B-series jest tani w częściach, ale progi i podłoga lubią rdzę. Widełki BaT są za szerokie, żeby wybrać jedną cenę.",
+      "profit": {
+        "buyPrice": 6500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT: 1979 MGB sprzedany 3 lis 2026 za 5 700 $, a 1974 MGB 29 paź 2026 za 14 050 $. Za duży rozrzut, żeby wskazać jedną cenę as-is."
+      }
+    },
+    {
+      "id": "cl-westy-85",
+      "title": "1985 VW Vanagon Westfalia",
+      "price": 6500,
+      "mileage": null,
+      "city": "El Sobrante",
+      "distanceMiles": 28,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/el-sobrante-1985-volkswagen-westfalia/sdVCAFnPP8XAJCYYkdPCBp",
+      "photo": "https://images.craigslist.org/00M0M_fDF1w5Nzi5C_0CI0lN_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "vw",
+      "deal": "rynek",
+      "note": "Jeżdżący, zużyty kamper. Dach w dobrym stanie, łóżka są, nadwozie proste, lakier przeciętny. Świeży zapłon.",
+      "marketNote": null,
+      "posted": "2026-10-24",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Silnik wasserboxer lubi uszczelkę pod głowicą i chłodzenie. Skoro auto jeździ, i tak sprawdzić, czy grzeje na postoju. Nie ma tu liczby na części, bo ogłoszenie nie wymienia konkretnej usterki.",
+      "profit": {
+        "buyPrice": 6500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT: zadbany 1984 Westfalia sprzedany 29 paź 2026 za 12 750 $, a projekt 1985 Wolfsburg 29 wrz 2026 za 4 900 $. To auto jest między tymi stanami."
+      }
+    },
+    {
+      "id": "cl-syncro",
+      "title": "1986 VW Vanagon Syncro Westfalia",
+      "price": 29000,
+      "mileage": null,
+      "city": "San Bruno",
+      "distanceMiles": 6,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-bruno-1986-vw-vanagon-syncro/8sHSTmJsAxo9hoxpidTThJ",
+      "photo": "https://images.craigslist.org/00202_5aivIxhXaNY_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "vw",
+      "deal": "rynek",
+      "note": "Syncro z dwoma pokrętłami, silnik 2.1, lift 2 cale, opony BFG na felgach Mercedes, drabinka, markiza, fotele po tapicerce. Dużo dodatków.",
+      "marketNote": null,
+      "posted": "2026-10-28",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Syncro jest wyraźnie droższy niż zwykły Vanagon, ale bez liczby produkcyjnej nie stawiam znaczka „rzadkie”. Napęd 4x4 dokłada sprzęgło wiskotyczne i przeguby, które trzeba sprawdzić na podnośniku.",
+      "profit": {
+        "buyPrice": 29000,
+        "sellAsIsValue": 27250,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": -1750,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1989 Vanagon GL Syncro sprzedany 17 wrz 2026 za 27 250 $. Nowszy 1991 Westfalia Syncro poszedł 15 paź za 36 750 $ — to inny rocznik i stan."
+      }
+    },
+    {
+      "id": "cl-fj40-68",
+      "title": "1968 Toyota FJ40, silnik Chevy 350",
+      "price": 19000,
+      "mileage": null,
+      "city": "San Mateo",
+      "distanceMiles": 1,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-mateo-1968-land-cruiser-fj-40/djyvaCDxTjM1LQvQvxbqgC",
+      "photo": "https://images.craigslist.org/00202_1lQECSrRL4_0t20CI_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "dobra",
+      "note": "W San Mateo. Silnik 350 Chevy i automat, lift 6 cali, klatka i fotele kubełkowe. Jeździ, czysty tytuł. Miska skrzyni kapie. Oryginalne części są u sprzedawcy.",
+      "marketNote": null,
+      "posted": "2026-10-14",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Swap na Chevy ułatwia części w Kalifornii, ale obniża cenę wobec seryjnego 2F dla kolekcjonera. Przeciek miski to drobiazg, nie budżet renowacji.",
+      "profit": {
+        "buyPrice": 19000,
+        "sellAsIsValue": 22750,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3750,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1964 FJ40 z silnikiem 350 sprzedany 5 paź 2026 za 22 750 $. Inny FJ40 z 350, rocznik 1971, poszedł 27 paź za 28 500 $."
+      }
+    },
+    {
+      "id": "cl-bronco-72",
+      "title": "1972 Ford Bronco, stoi od 25 lat",
+      "price": 15000,
+      "mileage": null,
+      "city": "Cupertino",
+      "distanceMiles": 23,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/cupertino-1972-ford-bronco/8FHWMaKjo5P8YyKAYbajyp",
+      "photo": "https://images.craigslist.org/00z0z_8yYDZxDMPcr_0CI0lM_600x450.jpg",
+      "condition": "proj",
+      "category": "us",
+      "brand": "ford",
+      "deal": "rynek",
+      "note": "Wczesny Bronco, sport, silnik 351, skrzynia 4-biegowa. Bez dachu i siedzeń. Stoi od około 25 lat, silnik daje się obrócić.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Wczesne Bronco (1966–1977) są drogie, gdy jeżdżą i mają dach. To jest projekt po długim postoju. Rama, podłoga i to, czy 351 ma kompresję, decydują o zakupie. Bez tych oględzin nie ma ceny as-is.",
+      "profit": {
+        "buyPrice": 15000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 1 lis 2026 sprzedał jeżdżącego 1971 Bronco Sport 302 za 23 000 $. To auto stoi ćwierć wieku i nie ma dachu."
+      }
+    },
+    {
+      "id": "cl-bronco-67",
+      "title": "1967 Ford Bronco – projekt, bez silnika",
+      "price": 17500,
+      "mileage": null,
+      "city": "Sacramento",
+      "distanceMiles": 83,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/sacramento-1967-bronco-project-great/pv2SPFHrkhL2N3zyegwVrK",
+      "photo": "https://images.craigslist.org/00O0O_ivGiTOBk9MY_0CI0t2_600x450.jpg",
+      "condition": "proj",
+      "category": "us",
+      "brand": "ford",
+      "deal": "rynek",
+      "note": "Karoseria wczesnego Bronco bez silnika i bez dachu. Są drzwi, maska, klapa, reduktor C4, wały. Sprzedawca porównuje do ukończonych aut za 40 tys. $ i więcej.",
+      "marketNote": null,
+      "posted": "2026-10-27",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Bez silnika i dachu to baza, nie samochód do jazdy. Porównanie do jeżdżących Bronco za 23–66 tys. $ z BaT nie jest ceną tego egzemplarza.",
+      "profit": {
+        "buyPrice": 17500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży samej karoserii bez silnika, do której da się to przyłożyć."
+      }
+    },
+    {
+      "id": "cl-mustang-67",
+      "title": "1967 Ford Mustang kabriolet, 289, automat",
+      "price": 21500,
+      "mileage": null,
+      "city": "Oakland",
+      "distanceMiles": 16,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/oakland-1967-ford-mustang-convertible/jQexT3ASD5VVPNUYUTgQvR",
+      "photo": "https://images.craigslist.org/00I0I_ipUxABDTUTE_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "us",
+      "brand": "ford",
+      "deal": "dobra",
+      "note": "Kalifornijski kabriolet, jeździ, sprzedawca pisze o braku rdzy. Silnik 289 (kod C), automat, elektryczny dach, tarcze z przodu, wspomaganie, pałąk, silnik po remoncie.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Kabriolet 1967 z 289 jest chodliwy. Automat jest słabszy niż czterobieg. Sprawdzić podłogę pod dywanem i czy dach domyka się na ramie szyby.",
+      "profit": {
+        "buyPrice": 21500,
+        "sellAsIsValue": 25875,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 4375,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1966 Ford Mustang kabriolet 289 sprzedany 22 paź 2026 za 25 875 $. Rocznik o jeden wcześniej."
+      }
+    },
+    {
+      "id": "cl-mach1",
+      "title": "1973 Ford Mustang Mach 1, 4 biegi",
+      "price": 33400,
+      "mileage": 113000,
+      "city": "San Jose",
+      "distanceMiles": 29,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-jose-1973-mustang-mach-rare-gold/27U5BpYmTtftY3ztkahNe7",
+      "photo": "https://images.craigslist.org/01515_bDoNJ5N5uy4_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "us",
+      "brand": "ford",
+      "deal": "rynek",
+      "note": "Mach 1, 113 tys. mil, skrzynia ręczna, 351, świeży gaźnik, wspomaganie, nowe kolektory. Kolor Gold Glow według sprzedawcy.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "1973 to duży Mustang, słabszy rynek niż 1965–1970. Kolor Gold Glow sprzedawca nazywa rzadkim, ale bez karty Marti nie stawiam znaczka. 351 Cleveland warto posłuchać na ciepło.",
+      "profit": {
+        "buyPrice": 33400,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży 1973 Mach 1 na BaT w zebranym zestawieniu; wyniki 1966 fastback GT dotyczą innego auta."
+      }
+    },
+    {
+      "id": "cl-vette-68",
+      "title": "1968 Chevrolet Corvette, dach T-top, 350",
+      "price": 32000,
+      "mileage": null,
+      "city": "Campbell",
+      "distanceMiles": 28,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/campbell-1968-chevrolette-corvette/diNezEZeatVM3yiQLXpukz",
+      "photo": "https://images.craigslist.org/00x0x_9bzThJNeWqu_0CI0l9_600x450.jpg",
+      "condition": "run",
+      "category": "us",
+      "brand": "chevrolet",
+      "deal": "rynek",
+      "note": "C3 coupe z dachem T-top. Silnik 350 z głowicami Brodix, gaźnik Holley, skrzynia Muncie 4-biegowa, wspomaganie. Sprzedawca wyprzedaje kolekcję.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "1968 to pierwszy rok C3, z innymi klamkami i brakiem klamek zewnętrznych w drzwiach. Modyfikowany 350 nie jest big-blockiem. Cena big-blocków z BaT tu nie pasuje.",
+      "profit": {
+        "buyPrice": 32000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Świeże 1968 na BaT to kabriolety (350-konny kabriolet 20 paź 2026 za 21 250 $, L89 427 za 83 000 $), nie to coupe."
+      }
+    },
+    {
+      "id": "cl-c10-75",
+      "title": "1975 Chevrolet C10 short bed – projekt",
+      "price": 6900,
+      "mileage": null,
+      "city": "Carmichael",
+      "distanceMiles": 90,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/carmichael-project-1975-no-smog-c10/kXuzcZpJWRxXhKpbCRuc1p",
+      "photo": "https://images.craigslist.org/00Z0Z_hL659N7lD45_0ak07K_600x450.jpg",
+      "condition": "proj",
+      "category": "us",
+      "brand": "chevrolet",
+      "deal": "rynek",
+      "note": "Stepside, krótka paka, rocznik bez smogu. Silnik 350 i skrzynia TH400 z lewarkiem B&M. Sprzedawca nie skończył projektu.",
+      "marketNote": null,
+      "posted": "2026-10-20",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "C10 stepside jest ładniejszy w odsprzedaży niż długa paka, ale dopóki nie jeździ, liczy się rama i podłoga, nie zdjęcia silnika. Brak kosztorysu części.",
+      "profit": {
+        "buyPrice": 6900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT sprzedaje głównie jeżdżące, często przerobione C10 (np. 1979 z silnikiem LQ4, 27 paź 2026, 14 500 $). To nie jest ten stan."
+      }
+    },
+    {
+      "id": "cl-s2000",
+      "title": "2003 Honda S2000, 46 tys. mil",
+      "price": 34500,
+      "mileage": 46000,
+      "city": "Hayward",
+      "distanceMiles": 15,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/hayward-2003-s2000/dr77syvhFJfthMNaWhiybK",
+      "photo": "https://images.craigslist.org/00L0L_2MtcFNKT6g2_0CI0pQ_600x450.jpg",
+      "condition": "run",
+      "category": "japo",
+      "brand": "honda",
+      "deal": "rynek",
+      "note": "Dwa właściciele w Kalifornii, 46 tys. mil, VIN-y zgodne. Są gwint Ohlins, inne radio, TCT Billman. Oryginalne radio do oddania.",
+      "marketNote": null,
+      "posted": "2026-10-11",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "AP1/AP2 S2000 trzyma cenę przy niskim przebiegu i seryjnym zawieszeniu. Gwint i inne radio nie podnoszą ceny jak niższy przebieg. Warto posłuchać dyferencjału i sprawdzić, czy fotele nie są przetarte.",
+      "profit": {
+        "buyPrice": 34500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT: 2003 S2000 z 27 tys. mil sprzedany 26 paź 2026 za 33 000 $, a egzemplarz z 7 tys. mil 30 paź za 38 250 $. To auto ma 46 tys. mil i zmiany zawieszenia."
+      }
+    },
+    {
+      "id": "cl-xjs",
+      "title": "1985 Jaguar XJS",
+      "price": 12000,
+      "mileage": null,
+      "city": "Santa Cruz",
+      "distanceMiles": 44,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/santa-cruz-1985-jaguar-xjs/vZBcGJQxvGFCyN6xFGJ2He",
+      "photo": "https://images.craigslist.org/00A0A_alVfUwlpc4r_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "jaguar",
+      "deal": "rynek",
+      "note": "Jeden właściciel, sprzedawca pisze, że stan jest bardzo dobry i są rachunki. Przebieg i silnik (V12 albo 3.6) nie są podane.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "XJS z V12 jest tani w zakupie i drogi w chłodzeniu oraz zapłonie. Bez przebiegu i bez wiedzy, który silnik, nie da się przyłożyć wyniku z BaT.",
+      "profit": {
+        "buyPrice": 12000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał XJS od 3 500 $ (projekt) do 26 750 $ (20 tys. mil, kabriolet V12). To ogłoszenie nie podaje przebiegu."
+      }
+    },
+    {
+      "id": "cl-slk-99",
+      "title": "1999 Mercedes SLK230, salvage, 193 tys. mil",
+      "price": 1700,
+      "mileage": 193010,
+      "city": "Pittsburg",
+      "distanceMiles": 39,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/pittsburg-1999-mercedes-benz-slk-230/5jzjVnkqZU9Mzhzz6kbP2v",
+      "photo": "https://images.craigslist.org/01313_2vadIRjjfOp_0sY0CI_600x450.jpg",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "rynek",
+      "note": "Odpala i jeździ, automat, tytuł salvage, różowy papier w ręku. Trzeba zrobić smog. Rejestracja do grudnia 2026. 193 tys. mil.",
+      "marketNote": null,
+      "posted": "2026-10-09",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [
+        "Tytuł salvage"
+      ],
+      "rare": false,
+      "know": "R170 SLK230 z kompresorem jest tani, dopóki działa kompresor i dach. Salvage i prawie 200 tys. mil odcinają go od cen zadbanych egzemplarzy. Dach vario warto otworzyć kilka razy.",
+      "profit": {
+        "buyPrice": 1700,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 8 paź 2026 sprzedał 1999 SLK230 z 18 tys. mil za 17 750 $. To nie jest salvage ze 193 tys. mil."
+      }
+    },
+    {
+      "id": "cl-slk-320",
+      "title": "2001 Mercedes SLK320, manual, komis",
+      "price": 6500,
+      "mileage": null,
+      "city": "Newark",
+      "distanceMiles": 16,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/newark-2001-mercedes-benz-slk-slk320/tuC4geJ2F9EALYrsucRsAF",
+      "photo": "https://images.craigslist.org/00b0b_1aCYQtGvB6j_0cU08B_600x450.jpg",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "rynek",
+      "note": "Komis Sports Plus Motor Group w Newark. SLK320 ze skrzynią ręczną i pakietem sportowym, czysty tytuł. Cena po obniżce 6 500 $. Przebieg w skrócie ogłoszenia niepodany.",
+      "marketNote": null,
+      "posted": "2026-10-30",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Ręczny SLK320 (R170) jest rzadszy niż automat, ale bez liczby z fabryki nie ma znaczka. Komis, więc doliczyć opłaty i sprawdzić, czy dach nie wyje.",
+      "profit": {
+        "buyPrice": 6500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. Najbliższy ręczny wynik BaT to 2011 SLK300 6-biegowy, 47 tys. mil, sprzedany 6 paź 2026 za 16 000 $ — inna generacja."
+      }
+    },
+    {
+      "id": "bat-e320-94",
+      "title": "1994 Mercedes E320 (W124) sedan (aukcja)",
+      "price": 3100,
+      "mileage": null,
+      "city": "San Jose",
+      "distanceMiles": 29,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1994-mercedes-benz-e320-103/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_0134-scaled-copy-2026-10-27-h3v-cba660ba372d1d5076efa6647cc5b6ef.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "aukcja",
+      "note": "Bez ceny minimalnej. Sedan W124, 3.2 i automat, biały, zarejestrowany od nowości w Teksasie i Kalifornii. Przebieg w skrócie aukcji niepodany.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 11:40 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "W124 E320 ma rzędową szóstkę M104. Lubi wiązkę i uszczelki pokrywy zaworów. To sedan, nie coupe ani kombi, więc wyniki kabrioletów go nie wyceniają.",
+      "profit": {
+        "buyPrice": 3100,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych dla sedana. BaT w październiku 2026 sprzedawał E320 coupe i kabriolety za 16 000–21 750 $. To inne nadwozia."
+      }
+    },
+    {
+      "id": "bat-fzj80",
+      "title": "1997 Toyota Land Cruiser FZJ80 Collector’s Edition, 294 tys. mil (aukcja)",
+      "price": 2100,
+      "mileage": 294000,
+      "city": "San Francisco",
+      "distanceMiles": 17,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1997-toyota-land-cruiser-fzj80-236/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2025/10/DSC02806-scaled-copy-2026-10-14-q8l-a8860d8edd857bffdcc79f84b93feec6.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "aukcja",
+      "note": "Collector’s Edition, 294 tys. mil, modyfikowany. Wcześniej sprzedawany na BaT w 2021 i 2023. Kolor Dark Emerald Pearl.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "5 lis, 12:06 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Collector’s Edition ma inny wystrój, ale przy 294 tys. mil i przeróbkach liczy się rama i czy 1FZ nie bierze oleju. Znaczka „rzadkie” nie stawiam bez liczby sztuk z fabryki.",
+      "profit": {
+        "buyPrice": 2100,
+        "sellAsIsValue": 7700,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 5600,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1997 FZJ80 Collector’s Edition sprzedany 30 paź 2026 za 7 700 $. Inne CE szły też za 25 759 $ i 49 250 $, więc 7 700 $ to dolny, bliższy zużytemu egzemplarzowi punkt."
+      }
+    },
+    {
+      "id": "bat-m3-01",
+      "title": "2001 BMW M3 coupe (E46), 6 biegów (aukcja)",
+      "price": 32000,
+      "mileage": null,
+      "city": "Hayward",
+      "distanceMiles": 25,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2001-bmw-m3-coupe-53/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/2001_bmw_m3-coupe_2001_bmw_m3-coupe_9764ae1a-fdd7-4306-9283-fc118fd4ea6f-NUO2jV-3966f46936a946b597bfd4cf4aedfae7-de2506979f9c04eee12cd5263845ead6-scaled.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "bmw",
+      "brand": "bmw",
+      "deal": "aukcja",
+      "note": "Bez ceny minimalnej. Przelakierowany na zielono metalik, wnętrze przerobione, dokładki w stylu CSL. Skrzynia ręczna.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "6 lis, 13:14 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "E46 M3 z manualem jest to, czego szukać, ale lakier niefabryczny i dokładki CSL to już nie seryjne auto. Słabe punkty: panewki wału (S54) i dyfer. Przebieg w skrócie niepodany.",
+      "profit": {
+        "buyPrice": 32000,
+        "sellAsIsValue": 27500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": -4500,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 2002 M3 coupe 6-biegowe sprzedane 28 paź 2026 za 27 500 $."
+      }
+    },
+    {
+      "id": "bat-mustang-66",
+      "title": "1966 Ford Mustang fastback 289, 3 biegi (aukcja)",
+      "price": 16000,
+      "mileage": null,
+      "city": "San Francisco",
+      "distanceMiles": 11,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1966-ford-mustang-1084/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/1966_ford_mustang_1966_ford_mustang_66cb9a4c-c8cd-41e2-859b-6756754c85bb-res7I5-46a758754f58e0d243a41ae590d34695-3a6b78c7e47d93fa3ac775d1c579117e-scaled.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "us",
+      "brand": "ford",
+      "deal": "aukcja",
+      "note": "Od nowości w jednej kalifornijskiej rodzinie, kupiony w 1965. Fastback, silnik 289, skrzynia 3-biegowa. To nie jest GT.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 11:45 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Fastback jest bardziej chodliwy niż coupe, a trzybieg jest słabszy niż cztero- lub pięciobieg. Nie ma tu świeżej sprzedaży zwykłego fastbacka 289, tylko GT i coupe, więc zysk zostawiam pusty.",
+      "profit": {
+        "buyPrice": 16000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. BaT 3 lis 2026 sprzedał 1966 fastback GT za 51 500 $, a coupe 289 za 8 000 $ 26 paź. Żaden nie jest zwykłym fastbackiem 289."
+      }
+    },
+    {
+      "id": "bat-chevelle-66",
+      "title": "1966 Chevrolet Chevelle SS 396, 4 biegi (aukcja)",
+      "price": 20000,
+      "mileage": null,
+      "city": "San Francisco",
+      "distanceMiles": 15,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1966-chevrolet-chevelle-26/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/Chevelle_leads-scaled-copy-2026-10-19-qg6-a5bb1c2df08c467ec4cfc7b58cd2ff93.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "us",
+      "brand": "chevrolet",
+      "deal": "aukcja",
+      "note": "36 lat w rodzinie, odświeżany około 2014. Sunburst Orange, 396, skrzynia ręczna. Oferta jeszcze niska względem podobnych SS.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "4 lis, 13:02 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "SS 396 trzeba potwierdzić kartą build i kodami, nie tylko emblematami. 396 z czterobiegiem jest właściwą specyfikacją. Aukcja może dojść dużo wyżej niż obecna oferta.",
+      "profit": {
+        "buyPrice": 20000,
+        "sellAsIsValue": 45500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 25500,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta, młotek będzie wyższy. BaT: 1966 Chevelle SS 396 sport coupe sprzedany 25 sie 2026 za 45 500 $. Inny, 31 lat w jednych rękach, 24 wrz 2026 za 50 500 $."
+      }
+    },
+    {
+      "id": "bat-560sel",
+      "title": "1989 Mercedes 560SEL (W126), 114 tys. mil (aukcja)",
+      "price": 0,
+      "mileage": 114000,
+      "city": "San Rafael",
+      "distanceMiles": 30,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1989-mercedes-benz-560sel-25/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/05/20260501_133543-79755-scaled-1-copy-2026-09-22-qj5-03368.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "aukcja",
+      "note": "Od nowości w Kalifornii, 114 tys. mil, szary, skóra Palomino, silnik 5.5 M117. Na starcie aukcji nie było jeszcze oferty.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 11:09 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "560SEL to sedan W126, nie coupe 560SEC. M117 jest trwały, drogie bywają poduszki hydrauliczne i instalacja. Bez oferty nie liczę zysku.",
+      "profit": {
+        "buyPrice": null,
+        "sellAsIsValue": 11777,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1988 560SEL sprzedany 2 lis 2026 za 11 777 $. Kupno pominięte, bo aukcja nie ma jeszcze oferty. 21-tysięczny 1989 poszedł 24 wrz za 25 000 $ — inny przebieg."
+      }
+    },
+    {
+      "id": "bat-healey-66",
+      "title": "1966 Austin-Healey 3000 BJ8 Mk III (aukcja)",
+      "price": 46250,
+      "mileage": null,
+      "city": "San Rafael",
+      "distanceMiles": 33,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1966-austin-healey-3000-mk-iii-35/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/DSC03917-scaled-da45035a3b196f98818e974631f65c25.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "euro",
+      "brand": "healey",
+      "deal": "aukcja",
+      "note": "BJ8 Mk III, egzemplarz eksportowy do Ameryki, po siedmioletniej renowacji. Oferta jest już blisko świeżych sprzedaży.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "4 lis, 10:45 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Mk III BJ8 to ostatnia, najwygodniejsza seria 3000 (nawijane szyby, deskę z drewna). Sprawdzić, czy renowacja ma zdjęcia ramy i czy numer silnika zgadza się z kartą.",
+      "profit": {
+        "buyPrice": 46250,
+        "sellAsIsValue": 50000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 3750,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1967 Austin-Healey 3000 BJ8 Mk III sprzedany 28 paź 2026 za 50 000 $."
+      }
+    },
+    {
+      "id": "bat-boxster-550",
+      "title": "2004 Porsche Boxster S 550 Anniversary, 19 tys. mil (aukcja)",
+      "price": 550,
+      "mileage": 19000,
+      "city": "Sacramento",
+      "distanceMiles": 83,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2004-porsche-boxster-s-550-anniversary-edition-40/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/front_three-quarter-driver-side_03-scaled-copy-2026-10-30-6do-4a3e478c19687802a9b03d581c809bc9.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "porsche",
+      "brand": "porsche",
+      "deal": "aukcja",
+      "note": "Edycja 550 Anniversary, numer 224 z 1953 sztuk według opisu BaT. Jeden właściciel od nowości, 19 tys. mil, skrzynia ręczna, Kalifornia. Oferta jest jeszcze symboliczna.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 13:30 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": true,
+      "know": "BaT podaje 1 953 sztuk tej edycji na 50-lecie 550 Spyder. GT Silver i coco-brązowe wnętrze są cechą tej serii. Obecna oferta nie jest ceną zakupu — aukcja dopiero ruszyła.",
+      "profit": {
+        "buyPrice": 550,
+        "sellAsIsValue": 22000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 21450,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa, a oferta 550 $ nie jest realną ceną zakupu. BaT: 2004 Boxster S 550 Anniversary sprzedany 29 paź 2026 za 22 000 $. Inny Boxster S z 20 tys. mil, nie ta edycja, poszedł 23 paź za 40 486 $."
+      }
+    },
+    {
+      "id": "bat-boss-302",
+      "title": "1969 Ford Mustang Boss 302, 4 biegi (aukcja)",
+      "price": 54000,
+      "mileage": null,
+      "city": "Sacramento",
+      "distanceMiles": 81,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1969-ford-mustang-boss-302-34/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/1969_ford_mustang-boss-302_1969_ford_mustang-boss-302_84dac6c4-9d82-4854-acec-def75f1dc9d9-4OMv8X-d61ba2db4558e8094587d2b36ba9084b-809237bfc4b7cf7e2fb52958695c11c8-scaled.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "us",
+      "brand": "ford",
+      "deal": "aukcja",
+      "note": "Bez ceny minimalnej. Acapulco Blue, w rodzinie od 1970, kupiony nowy w Sacramento. Silnik 302 i czterobieg.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "6 lis, 11:56 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Boss 302 jest wersją homologacyjną, ale bez karty Marti i liczby z fabryki w tym zestawieniu nie stawiam znaczka „rzadkie”. Sprawdzić datowniki silnika i czy to oryginalny blok.",
+      "profit": {
+        "buyPrice": 54000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek: brak danych. W zebranych wynikach BaT nie ma świeżej sprzedaży innego Boss 302, do której da się przyłożyć obecną ofertę."
+      }
+    },
+    {
+      "id": "bat-k10-72",
+      "title": "1972 Chevrolet K10 4x4, silnik 454 (aukcja)",
+      "price": 20000,
+      "mileage": null,
+      "city": "Milpitas",
+      "distanceMiles": 35,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_5698b6b2-6622-44ef-8962-ad25dbfd53e6-DE6Urr-7140139156197ff38b3e901ec1c3cc35-c2a48f40fb5d7931aee43fed38-ca0ce1b0b4b40960ca477f6b498cae81.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "us",
+      "brand": "chevrolet",
+      "deal": "aukcja",
+      "note": "Bez ceny minimalnej. K10, czyli 4x4 z rodziny C/K. Od 2021 po remoncie: przebudowany 454, wałek COMP. Skrzynia ręczna.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "6 lis, 13:00 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "K10 to czteronapędowy brat C10. 454 w lekkiej półtówce jest pożądany, ale obecna oferta jest już przy świeżej sprzedaży podobnie złożonego auta.",
+      "profit": {
+        "buyPrice": 20000,
+        "sellAsIsValue": 20000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 0,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1972 Chevrolet C10 Custom Deluxe z silnikiem 454 sprzedany 21 paź 2026 za 20 000 $."
+      }
+    },
+    {
+      "id": "cl-tt-01",
+      "title": "2001 Audi TT Roadster, manual, 79 tys. mil",
+      "price": 9695,
+      "mileage": 79000,
+      "city": "Half Moon Bay",
+      "distanceMiles": 15,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/half-moon-bay-2001-audi-tt-roadster-79k/9gjKhccU2XAFVrvH6wKTBZ",
+      "photo": "https://images.craigslist.org/00G0G_ldkDHJpSyqZ_0ak07y_600x450.jpg",
+      "condition": "run",
+      "category": "audi",
+      "brand": "audi",
+      "deal": "rynek",
+      "note": "Komis w Half Moon Bay. Pierwsza generacja TT, skrzynia ręczna, 79 tys. mil, skórzana tapicerka, ciemnozielony dach. Cena 9 695 $.",
+      "marketNote": null,
+      "posted": "2026-11-03",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "TT 8N z manualem jest lepsze do odsprzedaży niż automat, ale quattro i stan sprzęgła decydują. Komis, więc doliczyć opłaty. Halo effect dachu nie zastępuje przeglądu.",
+      "profit": {
+        "buyPrice": 9695,
+        "sellAsIsValue": 9000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": -695,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 2003 Audi TT Roadster sprzedany 7 paź 2026 za 9 000 $. Coupe z 2002, quattro, 5 biegów, poszło 15 paź za 10 750 $ — inne nadwozie."
+      }
+    },
+    {
+      "id": "cl-tr6-71",
+      "title": "1971 Triumph TR6, komis",
+      "price": 22500,
+      "mileage": null,
+      "city": "Oakland",
+      "distanceMiles": 16,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/oakland-1971-triumph-tr6/tdDeKZC6g6YRZooaAbzCQy",
+      "photo": "https://images.craigslist.org/00R0R_fUKsg6oiyG8_0CI0t2_600x450.jpg",
+      "condition": "run",
+      "category": "euro",
+      "brand": "triumph",
+      "deal": "rynek",
+      "note": "Komis Classic Cars West w Oakland. Jeździ, overdrive, świeża aluminiowa chłodnica, u tego właściciela od 2019. Cena już obniżana. Kupujący z Kalifornii dopłaca podatek.",
+      "marketNote": null,
+      "posted": "2026-10-31",
+      "auctionEnd": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "TR6 z overdrive jest właściwą specyfikacją. Rama i tylne błotniki rdzewieją pod nakładkami. Komis, więc cena na tablicy nie jest ceną wyjazdową.",
+      "profit": {
+        "buyPrice": 22500,
+        "sellAsIsValue": 20000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": -2500,
+        "estProfitAfterRepair": null,
+        "compNote": "Szacunek. BaT: 1973 Triumph TR6 sprzedany 28 paź 2026 za 20 000 $. Inny 1973 z silnikiem 350 poszedł 15 paź za 22 000 $. Prośba 22 500 $ jest już przy górze zwykłych sprzedaży."
+      }
     }
   ]
 }

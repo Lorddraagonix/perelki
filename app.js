@@ -12,7 +12,10 @@ const state = {
   tab: "top",
   q: "",
   cat: "all",
+  brand: "all",
   cond: "all",
+  onlyProfit: false,
+  onlyRare: false,
   maxP: "any",
   sort: "deal",
   favs: { order: [], items: {} },
@@ -153,19 +156,45 @@ function listingEntries() {
   return state.data.listings.map((listing) => ({ listing, gone: false }));
 }
 
+function profitNumbers(listing) {
+  const p = listing.profit || {};
+  const buy = p.buyPrice == null ? null : Number(p.buyPrice);
+  const asIs = p.sellAsIsValue == null || buy == null || buy <= 0 ? null : Number(p.sellAsIsValue) - buy;
+  const after = p.sellAfterRepairValue == null || p.estPartsCost == null || buy == null || buy <= 0
+    ? null
+    : Number(p.sellAfterRepairValue) - buy - Number(p.estPartsCost);
+  return { asIs, after };
+}
+
+function bestProfit(listing) {
+  const { asIs, after } = profitNumbers(listing);
+  const values = [asIs, after].filter((n) => n != null);
+  return values.length ? Math.max(...values) : null;
+}
+
 function matches(listing) {
   if (state.cat !== "all" && listing.category !== state.cat) return false;
+  if (state.brand !== "all" && listing.brand !== state.brand) return false;
   if (state.cond !== "all" && listing.condition !== state.cond) return false;
+  if (state.onlyRare && !listing.rare) return false;
+  if (state.onlyProfit) {
+    const { asIs, after } = profitNumbers(listing);
+    if (!((asIs != null && asIs > 0) || (after != null && after > 0))) return false;
+  }
   if (state.maxP !== "any" && !(Number(listing.price) <= Number(state.maxP))) return false;
   const words = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   if (!words.length) return true;
+  const labels = state.data.labels || {};
   const hay = [
     listing.title,
     listing.city,
     listing.note,
     listing.marketNote,
+    listing.know,
     listing.source,
     listing.scamWarning,
+    labels.brand && labels.brand[listing.brand],
+    listing.profit && listing.profit.compNote,
     ...(Array.isArray(listing.flags) ? listing.flags : []),
   ].join(" ").toLowerCase();
   return words.every((word) => hay.includes(word));
@@ -183,6 +212,16 @@ function sorted(entries) {
   } else if (state.sort === "new") {
     const day = (entry) => entry.listing.posted || updatedDay;
     copy.sort((a, b) => day(b).localeCompare(day(a)) || price(a) - price(b));
+  } else if (state.sort === "profit") {
+    const gain = (entry) => bestProfit(entry.listing);
+    copy.sort((a, b) => {
+      const ga = gain(a);
+      const gb = gain(b);
+      if (ga == null && gb == null) return price(a) - price(b);
+      if (ga == null) return 1;
+      if (gb == null) return -1;
+      return gb - ga || price(a) - price(b);
+    });
   } else if (state.tab === "top") {
     const order = new Map(state.data.topPicks.map((id, index) => [id, index]));
     copy.sort((a, b) => (order.get(a.listing.id) ?? 99) - (order.get(b.listing.id) ?? 99));
@@ -190,6 +229,32 @@ function sorted(entries) {
     copy.sort((a, b) => (DEAL_RANK[a.listing.deal] ?? 9) - (DEAL_RANK[b.listing.deal] ?? 9) || price(a) - price(b));
   }
   return copy;
+}
+
+function moneyOrBlank(value) {
+  return value == null || value === "" ? "brak danych" : money(value);
+}
+
+function profitCell(value) {
+  if (value == null) return "brak danych";
+  const text = (value < 0 ? "−" : "") + money(Math.abs(value));
+  const cls = value > 0 ? "pos" : value < 0 ? "neg" : "";
+  return `<span class="${cls}">${esc(text)}</span>`;
+}
+
+function estimateHtml(listing) {
+  const p = listing.profit || {};
+  const nums = profitNumbers(listing);
+  const comp = p.compNote ? `<p class="comp">${esc(p.compNote)}</p>` : "";
+  return `
+    <dl class="estimate">
+      <div><dt>Kupno</dt><dd>${esc(moneyOrBlank(p.buyPrice))}</dd></div>
+      <div><dt>Sprzedaż bez pracy</dt><dd>${esc(moneyOrBlank(p.sellAsIsValue))}</dd></div>
+      <div><dt>Po naprawie</dt><dd>${esc(moneyOrBlank(p.sellAfterRepairValue))}</dd></div>
+      <div><dt>Koszt części</dt><dd>${esc(moneyOrBlank(p.estPartsCost))}</dd></div>
+      <div class="wide"><dt>Potencjalny zysk</dt><dd>bez pracy: ${profitCell(nums.asIs)} · po naprawie: ${profitCell(nums.after)}</dd></div>
+    </dl>
+    ${comp}`;
 }
 
 function whenLabel(listing) {
@@ -215,6 +280,7 @@ function cardHtml(entry) {
     ? ""
     : (listing.auctionEnd ? "Oferta: " + money(listing.price) : money(listing.price));
   const flags = Array.isArray(listing.flags) ? listing.flags : [];
+  const estimate = estimateHtml(listing);
   const url = safeUrl(listing.url);
   const photo = safeUrl(listing.photo);
   const fav = state.favs.order.includes(listing.id);
@@ -226,6 +292,7 @@ function cardHtml(entry) {
       ${entry.gone ? '<p class="gone-banner">Ogłoszenie usunięte</p>' : ""}
       <div class="row">
         ${dealLabel ? `<span class="deal deal-${esc(listing.deal)}">${esc(dealLabel)}</span>` : ""}
+        ${listing.rare ? '<span class="badge-rare">Rzadkie</span>' : ""}
         ${isNew ? '<span class="badge-new">Nowe</span>' : ""}
         ${kind ? `<span class="kind">${esc(kind)}</span>` : ""}
       </div>
@@ -233,6 +300,8 @@ function cardHtml(entry) {
       ${price ? `<p class="price">${esc(price)}</p>` : ""}
       ${bits.length ? `<p class="meta">${esc(bits.join(" · "))}</p>` : ""}
       ${listing.note ? `<p class="note">${esc(listing.note)}</p>` : ""}
+      ${listing.know ? `<p class="know"><strong>Co warto wiedzieć.</strong> ${esc(listing.know)}</p>` : ""}
+      ${estimate}
       ${flags.length ? `<ul class="flags">${flags.map((flag) => `<li>${esc(flag)}</li>`).join("")}</ul>` : ""}
       ${listing.scamWarning ? `<p class="scam">Red flag: ${esc(listing.scamWarning)}</p>` : ""}
       ${sourceLine ? `<p class="src">${esc(sourceLine)}</p>` : ""}
@@ -257,9 +326,8 @@ function render() {
   document.querySelectorAll("[data-tab]").forEach((button) => {
     button.setAttribute("aria-pressed", button.dataset.tab === state.tab ? "true" : "false");
   });
-  document.querySelectorAll("[data-cat]").forEach((button) => {
-    button.setAttribute("aria-pressed", button.dataset.cat === state.cat ? "true" : "false");
-  });
+  document.getElementById("only-profit").setAttribute("aria-pressed", state.onlyProfit ? "true" : "false");
+  document.getElementById("only-rare").setAttribute("aria-pressed", state.onlyRare ? "true" : "false");
   document.querySelectorAll("[data-cond]").forEach((button) => {
     button.setAttribute("aria-pressed", button.dataset.cond === state.cond ? "true" : "false");
   });
@@ -315,11 +383,21 @@ function bind() {
     state.sort = event.target.value;
     render();
   });
-  document.querySelectorAll("[data-cat]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.cat = button.dataset.cat;
-      render();
-    });
+  document.getElementById("cat").addEventListener("change", (event) => {
+    state.cat = event.target.value;
+    render();
+  });
+  document.getElementById("brand").addEventListener("change", (event) => {
+    state.brand = event.target.value;
+    render();
+  });
+  document.getElementById("only-profit").addEventListener("click", () => {
+    state.onlyProfit = !state.onlyProfit;
+    render();
+  });
+  document.getElementById("only-rare").addEventListener("click", () => {
+    state.onlyRare = !state.onlyRare;
+    render();
   });
   document.querySelectorAll("[data-cond]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -369,6 +447,14 @@ async function init() {
   updated.dateTime = state.data.updated || "";
   updated.textContent = state.data.updatedLabel || state.data.updated || "";
   document.getElementById("safety").textContent = state.data.safety || "";
+  const brandSelect = document.getElementById("brand");
+  const brands = state.data.labels && state.data.labels.brand ? state.data.labels.brand : {};
+  for (const [value, label] of Object.entries(brands)) {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    brandSelect.appendChild(option);
+  }
   refreshStoredCopies();
   markFresh(state.data.listings || []);
   render();

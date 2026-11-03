@@ -46,8 +46,20 @@ Reszty plików (`index.html`, `styles.css`, `app.js`) nie ruszaj przy zwykłej a
     },
     "category": {
       "sl": "Mercedes SL",
+      "mercedes": "Mercedes inne",
       "porsche": "Porsche",
-      "inne": "Inne klasyki"
+      "bmw": "BMW",
+      "audi": "Audi",
+      "alfa": "Alfa Romeo",
+      "japo": "Japońskie",
+      "euro": "Inne europejskie",
+      "us": "Amerykańskie"
+    },
+    "brand": {
+      "mercedes": "Mercedes",
+      "porsche": "Porsche",
+      "bmw": "BMW",
+      "toyota": "Toyota"
     },
     "condition": {
       "run": "Na chodzie",
@@ -72,14 +84,32 @@ Każdy element `listings`:
 | `url` | string | Pełny adres `https://` oryginalnego ogłoszenia. Otwiera się w nowej karcie. |
 | `photo` | string | Pełny adres `https://` zdjęcia. Jak się nie wczyta, karta zostaje bez zdjęcia. |
 | `condition` | `run` albo `proj` | `run` = na chodzie, `proj` = projekt. |
-| `category` | `sl`, `porsche` albo `inne` | Mercedes SL, Porsche, inne klasyki. |
+| `category` | kod z `labels.category` | Grupa na filtrze: Mercedes SL, Mercedes inne, Porsche, BMW, Audi, Alfa Romeo, Japońskie, Inne europejskie, Amerykańskie. |
+| `brand` | kod z `labels.brand` | Marka na osobnym filtrze, np. `toyota`, `ford`, `vw`. |
 | `deal` | `perelka`, `dobra`, `aukcja`, `rynek` albo `drogo` | Etykieta okazji. |
-| `note` | string | Polska notatka na karcie: stan, uwagi i porównanie z rynkiem. |
-| `marketNote` | string lub `null` | Same zdania o porównaniu z rynkiem (BaT, mediana). Może być `null`, karta i tak pokazuje `note`. |
+| `rare` | `true` albo `false` | `true` tylko przy potwierdzonej rzadkości (liczba z fabryki, rejestru, Hagerty albo opisu BaT). Na karcie daje znaczek „Rzadkie”. |
+| `know` | string lub `null` | Krótka polska notka „Co warto wiedzieć”: opcje, które podnoszą wartość, i słabe punkty. Bez liczby sztuk, jeśli nie ma źródła. |
+| `note` | string | Polska notatka na karcie: stan i uwagi. |
+| `marketNote` | string lub `null` | Starsze zdania o porównaniu z rynkiem. Karta pokazuje `profit.compNote`, gdy jest. |
+| `profit` | obiekt | Szacunek, nie wycena. Patrz niżej. |
 | `posted` | `YYYY-MM-DD` lub `null` | Data dodania ogłoszenia. |
 | `auctionEnd` | string lub `null` | Koniec aukcji, np. `6 lis, 11:47 PT`. Gdy ustawione, cena ma przedrostek „Oferta:”. |
 | `scamWarning` | string lub `null` | Ostrzeżenie (czerwona ramka). `null`, gdy go nie ma. |
 | `flags` | tablica stringów | Krótkie czerwone flagi, np. `Tytuł salvage`, `Płatność krypto`. Pusta tablica, gdy nie ma. |
+
+`profit`:
+
+| Pole | Typ | Znaczenie |
+| --- | --- | --- |
+| `buyPrice` | number lub `null` | Cena z ogłoszenia albo obecna oferta aukcji. `null`, gdy aukcja nie ma jeszcze oferty. |
+| `sellAsIsValue` | number lub `null` | Realna szybka sprzedaż w obecnym stanie. Tylko gdy jest świeży, podobny wynik (najczęściej BaT). Inaczej `null` i karta pisze „brak danych”. |
+| `sellAfterRepairValue` | number lub `null` | Wartość po ogarnięciu usterek z ogłoszenia. `null`, gdy nie ma komparatora dla już ogarniętego auta. |
+| `estPartsCost` | number lub `null` | Koszt części, bez robocizny. `null`, gdy ogłoszenie nie wskazuje konkretnej usterki albo nie ma ceny części. |
+| `estProfitAsIs` | number lub `null` | `sellAsIsValue - buyPrice`. Strona liczy to jeszcze raz przy wyświetlaniu. |
+| `estProfitAfterRepair` | number lub `null` | `sellAfterRepairValue - buyPrice - estPartsCost`. Wymaga wszystkich trzech liczb. |
+| `compNote` | string lub `null` | Skąd wzięta liczba: model, data i kwota sprzedaży. Przy aukcji dopisz, że kupno to obecna oferta. |
+
+Nie wpisuj kwoty „na oko”. Jak nie ma podobnej sprzedaży, zostaw `null`.
 
 `topPicks` to lista `id` w kolejności karty **Najlepsze okazje**. `labels` tłumaczy kody na polskie napisy — zmieniaj je tylko, gdy chcesz zmienić słownictwo na całej stronie.
 

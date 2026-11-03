@@ -306,6 +306,43 @@ h2 {
   font-weight: 750;
 }
 
+.badge-rare {
+  background: #2c2148;
+  color: #fff;
+  border-radius: 999px;
+  padding: 3px 8px;
+}
+
+.estimate {
+  margin: 2px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  background: #f4efe4;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+.estimate div { min-width: 0; }
+.estimate dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+}
+.estimate dd {
+  margin: 0;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+}
+.estimate .pos { color: var(--green); }
+.estimate .neg { color: var(--danger); }
+.estimate .wide { grid-column: 1 / -1; }
+
+.comp, .know { margin: 0; font-size: 0.88rem; }
+.comp { color: var(--muted); }
+
 .scam {
   margin: 0;
   padding: 8px 10px;

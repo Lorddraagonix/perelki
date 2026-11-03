@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Codzienna tablica okazji na klasyki w promieniu około 100 mil od San Mateo: Mercedes SL, klasyczne Porsche i inne auta.">
+  <meta name="theme-color" content="#efe7d6">
+  <title>Perełki — klasyki koło San Mateo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238c2f22'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='18' fill='%23fffaf2'%3EP%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="intro">
+    <p class="kicker">San Mateo · około 100 mil</p>
+    <h1>Perełki</h1>
+    <p class="lede">Codzienna tablica klasyków: Mercedes SL, klasyczne Porsche i inne fajne auta. Na chodzie i do roboty.</p>
+    <p class="updated">Aktualizacja: <time id="updated"></time></p>
+  </header>
+
+  <aside class="safety" id="safety">Ładuję wskazówkę…</aside>
+
+  <div class="sticky">
+    <nav class="tabs" aria-label="Widoki">
+      <button type="button" id="tab-top" data-tab="top" aria-pressed="true">Najlepsze okazje</button>
+      <button type="button" id="tab-all" data-tab="all" aria-pressed="false">Wszystkie</button>
+      <button type="button" id="tab-fav" data-tab="fav" aria-pressed="false">Ulubione <span class="count" id="fav-count">0</span></button>
+    </nav>
+  </div>
+
+  <form class="filters" id="filters">
+    <label class="field field-search">
+      <span>Szukaj</span>
+      <input id="q" type="search" placeholder="np. 560SL, Oakland, manual" autocomplete="off" enterkeyhint="search">
+    </label>
+    <div class="field">
+      <span id="cat-label">Kategoria</span>
+      <div class="seg" role="group" aria-labelledby="cat-label">
+        <button type="button" data-cat="all" aria-pressed="true">Wszystkie</button>
+        <button type="button" data-cat="sl" aria-pressed="false">Mercedes SL</button>
+        <button type="button" data-cat="porsche" aria-pressed="false">Porsche</button>
+        <button type="button" data-cat="inne" aria-pressed="false">Inne klasyki</button>
+      </div>
+    </div>
+    <div class="field">
+      <span id="cond-label">Stan</span>
+      <div class="seg" role="group" aria-labelledby="cond-label">
+        <button type="button" data-cond="all" aria-pressed="true">Każdy stan</button>
+        <button type="button" data-cond="run" aria-pressed="false">Na chodzie</button>
+        <button type="button" data-cond="proj" aria-pressed="false">Projekt</button>
+      </div>
+    </div>
+    <div class="field-row">
+      <label class="field">
+        <span>Cena maks.</span>
+        <select id="maxp">
+          <option value="any">Bez limitu</option>
+          <option value="5000">do 5 000 $</option>
+          <option value="10000">do 10 000 $</option>
+          <option value="20000">do 20 000 $</option>
+          <option value="40000">do 40 000 $</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Sortuj</span>
+        <select id="sort">
+          <option value="deal">Najlepsze okazje</option>
+          <option value="price">Najtańsze</option>
+          <option value="dist">Najbliższe</option>
+          <option value="new">Najnowsze</option>
+        </select>
+      </label>
+    </div>
+  </form>
+
+  <p class="status" id="status" aria-live="polite">Ładuję ogłoszenia…</p>
+  <p class="persist" id="persist" hidden></p>
+
+  <main class="board" id="board"></main>
+
+  <footer class="legend">
+    <h2>Jak czytać oznaczenia</h2>
+    <ul>
+      <li><strong>Perełka</strong> — wyraźnie poniżej cen z Bring a Trailer albo rzadki model za bardzo małe pieniądze.</li>
+      <li><strong>Dobra cena</strong> — poniżej typowej ceny sprzedaży, warto zadzwonić.</li>
+      <li><strong>Aukcja trwa</strong> — Bring a Trailer: pokazana jest aktualna oferta, końcowa cena będzie wyższa.</li>
+      <li><strong>Cena rynkowa</strong> — w widełkach podobnych sprzedaży.</li>
+      <li><strong>Drogo</strong> — powyżej typowych cen albo tytuł salvage przy wysokiej cenie.</li>
+    </ul>
+    <p>Ceny porównawcze to wyniki sprzedaży na Bring a Trailer z ostatnich tygodni. BaT to zwykle ładniejsze egzemplarze, więc auto z Craigslista w gorszym stanie może być warte mniej niż mediana.</p>
+    <p class="sources">Źródła: Craigslist (Bay Area i okolice), Bring a Trailer, ClassicCars.com.</p>
+  </footer>
+
+  <noscript>
+    <p class="safety">Ta tablica potrzebuje JavaScript, żeby wczytać ogłoszenia.</p>
+  </noscript>
+  <script src="app.js"></script>
+</body>
+</html>

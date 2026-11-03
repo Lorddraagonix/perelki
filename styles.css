@@ -90,6 +90,32 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
+.segments {
+  width: min(1120px, calc(100% - 28px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  padding-top: 8px;
+}
+
+.segments button {
+  font: inherit;
+  font-weight: 750;
+  min-height: 44px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid var(--line);
+  border-bottom: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.segments button[aria-pressed="true"] {
+  background: var(--card);
+  color: var(--ink);
+}
+
 .tabs {
   width: min(1120px, calc(100% - 28px));
   margin: 0 auto;

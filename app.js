@@ -9,6 +9,7 @@ const HEART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.
 
 const state = {
   data: null,
+  segment: "klasyki",
   tab: "top",
   q: "",
   cat: "all",
@@ -87,11 +88,30 @@ function writeJson(key, value) {
 
 function loadFavs() {
   const saved = readJson(FAV_KEY);
-  if (!saved || !Array.isArray(saved.order) || typeof saved.items !== "object" || !saved.items) {
-    state.favs = { order: [], items: {} };
+  if (saved && Array.isArray(saved.order) && saved.items && typeof saved.items === "object") {
+    state.favs = { order: saved.order.filter((id) => typeof id === "string"), items: saved.items };
     return;
   }
-  state.favs = { order: saved.order.filter((id) => typeof id === "string"), items: saved.items };
+  const legacy = readJson("perelki-ulubione-v1");
+  if (Array.isArray(legacy)) {
+    state.favs = { order: legacy.filter((id) => typeof id === "string"), items: {} };
+    saveFavs();
+    return;
+  }
+  state.favs = { order: [], items: {} };
+}
+
+function segmentOf(listing) {
+  return (listing && listing.segment) || "klasyki";
+}
+
+function favIdsForSegment() {
+  const live = byIdMap();
+  return state.favs.order.filter((id) => {
+    const current = live.get(id);
+    const snap = state.favs.items[id];
+    return segmentOf(current || snap) === state.segment;
+  });
 }
 
 function saveFavs() {
@@ -118,13 +138,14 @@ function byIdMap() {
 function listingEntries() {
   const live = byIdMap();
   if (state.tab === "top") {
-    return state.data.topPicks
+    const picks = state.segment === "nowsze" ? (state.data.topPicksNowsze || []) : state.data.topPicks;
+    return picks
       .map((id) => live.get(id))
-      .filter(Boolean)
+      .filter((listing) => listing && segmentOf(listing) === state.segment)
       .map((listing) => ({ listing, gone: false }));
   }
   if (state.tab === "fav") {
-    return state.favs.order.map((id) => {
+    return favIdsForSegment().map((id) => {
       const current = live.get(id);
       if (current) return { listing: current, gone: false };
       const snapshot = state.favs.items[id];
@@ -153,7 +174,9 @@ function listingEntries() {
       };
     });
   }
-  return state.data.listings.map((listing) => ({ listing, gone: false }));
+  return state.data.listings
+    .filter((listing) => segmentOf(listing) === state.segment)
+    .map((listing) => ({ listing, gone: false }));
 }
 
 function profitNumbers(listing) {
@@ -252,7 +275,8 @@ function estimateHtml(listing) {
       <div><dt>Sprzedaż bez pracy</dt><dd>${esc(moneyOrBlank(p.sellAsIsValue))}</dd></div>
       <div><dt>Po naprawie</dt><dd>${esc(moneyOrBlank(p.sellAfterRepairValue))}</dd></div>
       <div><dt>Koszt części</dt><dd>${esc(moneyOrBlank(p.estPartsCost))}</dd></div>
-      <div class="wide"><dt>Potencjalny zysk</dt><dd>bez pracy: ${profitCell(nums.asIs)} · po naprawie: ${profitCell(nums.after)}</dd></div>
+      ${p.suggestedOffer != null ? `<div><dt>Oferta do negocjacji</dt><dd>${esc(money(p.suggestedOffer))} <span class="kind">szacunek</span></dd></div>` : ""}
+      <div class="wide"><dt>Potencjalny zysk</dt><dd>bez pracy: ${profitCell(nums.asIs)} · po naprawie: ${profitCell(nums.after)}${p.suggestedOffer != null && p.sellAsIsValue != null ? " · przy ofercie: " + profitCell(Number(p.sellAsIsValue) - Number(p.suggestedOffer)) : ""}</dd></div>
     </dl>
     ${comp}`;
 }
@@ -322,7 +346,10 @@ function render() {
     img.addEventListener("error", () => hideBrokenImage(img));
   });
 
-  document.getElementById("fav-count").textContent = String(state.favs.order.length);
+  document.getElementById("fav-count").textContent = String(favIdsForSegment().length);
+  document.querySelectorAll("[data-segment]").forEach((button) => {
+    button.setAttribute("aria-pressed", button.dataset.segment === state.segment ? "true" : "false");
+  });
   document.querySelectorAll("[data-tab]").forEach((button) => {
     button.setAttribute("aria-pressed", button.dataset.tab === state.tab ? "true" : "false");
   });
@@ -402,6 +429,12 @@ function bind() {
   document.querySelectorAll("[data-cond]").forEach((button) => {
     button.addEventListener("click", () => {
       state.cond = button.dataset.cond;
+      render();
+    });
+  });
+  document.querySelectorAll("[data-segment]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.segment = button.dataset.segment;
       render();
     });
   });

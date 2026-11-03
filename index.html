@@ -13,13 +13,17 @@
   <header class="intro">
     <p class="kicker">San Mateo · około 100 mil</p>
     <h1>Perełki</h1>
-    <p class="lede">Codzienna tablica klasyków do odsprzedaży: Mercedes, Porsche, BMW, auta japońskie, europejskie i amerykańskie. Na chodzie i do roboty.</p>
+    <p class="lede">Dwie tablice: klasyki oraz nowsze auta z lat około 2005–2020, które da się kupić poniżej rynku. Na chodzie i do roboty.</p>
     <p class="updated">Aktualizacja: <time id="updated"></time></p>
   </header>
 
   <aside class="safety" id="safety">Ładuję wskazówkę…</aside>
 
   <div class="sticky">
+    <nav class="segments" aria-label="Rodzaj aut">
+      <button type="button" id="seg-klasyki" data-segment="klasyki" aria-pressed="true">Klasyki</button>
+      <button type="button" id="seg-nowsze" data-segment="nowsze" aria-pressed="false">Nowsze auta</button>
+    </nav>
     <nav class="tabs" aria-label="Widoki">
       <button type="button" id="tab-top" data-tab="top" aria-pressed="true">Najlepsze okazje</button>
       <button type="button" id="tab-all" data-tab="all" aria-pressed="false">Wszystkie</button>

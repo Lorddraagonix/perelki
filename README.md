@@ -21,7 +21,7 @@ Jedyny plik, który trzeba zmieniać każdego dnia, to [`data/listings.json`](da
 1. Otwórz `data/listings.json`.
 2. Ustaw `updated` (czas ISO 8601) i `updatedLabel` (tekst pokazywany na stronie, np. `4 listopada 2026, 8:00 PT`).
 3. Dopisz, popraw albo usuń obiekty w `listings`.
-4. Jeśli auto ma być na karcie **Najlepsze okazje**, dopisz jego `id` do `topPicks` (i usuń stamtąd, gdy przestaje być okazją).
+4. Ustaw `segment`: `klasyki` albo `nowsze`. Na **Najlepsze okazje** dopisz `id` do `topPicks` (klasyki) albo `topPicksNowsze`. Nie zmieniaj `id`, które już jest w pliku.
 5. Zrób commit na `main` i wypchnij. GitHub Actions opublikuje stronę samo.
 
 Ulubione zostają w przeglądarce telefonu. Jak ogłoszenie zniknie z pliku, a ktoś miał je w ulubionych, karta zostaje wyszarzona z napisem „Ogłoszenie usunięte”.
@@ -74,7 +74,7 @@ Każdy element `listings`:
 
 | Pole | Typ | Znaczenie |
 | --- | --- | --- |
-| `id` | string | Unikalny identyfikator. Zostaw ten sam, gdy tylko poprawiasz cenę. |
+| `id` | string | Unikalny identyfikator. Nie zmieniaj go przy aktualizacji — ulubione w telefonie są podpięte pod to `id`. |
 | `title` | string | Tytuł na karcie. |
 | `price` | number | Cena w dolarach. Przy aukcji to aktualna oferta. |
 | `mileage` | number lub `null` | Przebieg w milach. `null`, gdy nieznany. |
@@ -95,6 +95,7 @@ Każdy element `listings`:
 | `posted` | `YYYY-MM-DD` lub `null` | Data dodania ogłoszenia. |
 | `auctionEnd` | string lub `null` | Koniec aukcji, np. `6 lis, 11:47 PT`. Gdy ustawione, cena ma przedrostek „Oferta:”. |
 | `scamWarning` | string lub `null` | Ostrzeżenie (czerwona ramka). `null`, gdy go nie ma. |
+| `segment` | `klasyki` albo `nowsze` | Która karta na górze strony. Brak pola znaczy `klasyki`, więc starszy plik dalej działa. |
 | `flags` | tablica stringów | Krótkie czerwone flagi, np. `Tytuł salvage`, `Płatność krypto`. Pusta tablica, gdy nie ma. |
 
 `profit`:
@@ -102,6 +103,7 @@ Każdy element `listings`:
 | Pole | Typ | Znaczenie |
 | --- | --- | --- |
 | `buyPrice` | number lub `null` | Cena z ogłoszenia albo obecna oferta aukcji. `null`, gdy aukcja nie ma jeszcze oferty. |
+| `suggestedOffer` | number lub `null` | Szacunek oferty do negocjacji. `null`, gdy nie ma podstawy (np. cena sztywna albo brak widełek w ogłoszeniu). Na karcie jest podpisane „szacunek”. |
 | `sellAsIsValue` | number lub `null` | Realna szybka sprzedaż w obecnym stanie. Tylko gdy jest świeży, podobny wynik (najczęściej BaT). Inaczej `null` i karta pisze „brak danych”. |
 | `sellAfterRepairValue` | number lub `null` | Wartość po ogarnięciu usterek z ogłoszenia. `null`, gdy nie ma komparatora dla już ogarniętego auta. |
 | `estPartsCost` | number lub `null` | Koszt części, bez robocizny. `null`, gdy ogłoszenie nie wskazuje konkretnej usterki albo nie ma ceny części. |
@@ -111,6 +113,8 @@ Każdy element `listings`:
 
 Nie wpisuj kwoty „na oko”. Jak nie ma podobnej sprzedaży, zostaw `null`.
 
-`topPicks` to lista `id` w kolejności karty **Najlepsze okazje**. `labels` tłumaczy kody na polskie napisy — zmieniaj je tylko, gdy chcesz zmienić słownictwo na całej stronie.
+`topPicks` to klasyki na karcie **Najlepsze okazje**. `topPicksNowsze` to to samo dla karty **Nowsze auta**. `labels` tłumaczy kody na polskie napisy.
+
+Ulubione zostają w przeglądarce pod stałym `id` (klucz `perelki-ulubione-v2`). Jak ogłoszenie zniknie z pliku, karta zostaje wyszarzona. Nie zmieniaj `id` istniejącego auta przy codziennej poprawce.
 
 `safety` to czerwona wskazówka na górze (zaliczka, VIN, tytuł).

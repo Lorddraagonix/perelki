@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03T12:40:00-08:00",
-  "updatedLabel": "3 listopada 2026, 12:40 PT",
+  "updated": "2026-11-03T13:05:00-08:00",
+  "updatedLabel": "3 listopada 2026, 13:05 PT",
   "safety": "Nie wpłacaj zaliczki przed obejrzeniem auta. Sprawdź VIN i tytuł (salvage obniża wartość). Przy bardzo niskiej cenie zapytaj sprzedającego, dlaczego jest tak tanio.",
   "topPicks": [
     "cl-300d-87",
@@ -53,7 +53,10 @@
       "triumph": "Triumph",
       "healey": "Austin-Healey",
       "ford": "Ford",
-      "chevrolet": "Chevrolet"
+      "chevrolet": "Chevrolet",
+      "subaru": "Subaru",
+      "mazda": "Mazda",
+      "lexus": "Lexus"
     }
   },
   "listings": [
@@ -86,8 +89,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3000,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1970 Mercedes 280SL 4-biegowy sprzedany 17 paź 2026 za 62 000 $. To ogłoszenie ma automat, więc komparator jest mocniejszy niż to auto."
-      }
+        "compNote": "Szacunek. BaT: 1970 Mercedes 280SL 4-biegowy sprzedany 17 paź 2026 za 62 000 $. To ogłoszenie ma automat, więc komparator jest mocniejszy niż to auto.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992932802",
@@ -118,8 +123,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7987871067",
@@ -150,8 +157,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3800,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1984 Mercedes 380SL sprzedany 2 paź 2026 za 11 500 $. Rocznik obok (to jest 1983)."
-      }
+        "compNote": "Szacunek. BaT: 1984 Mercedes 380SL sprzedany 2 paź 2026 za 11 500 $. Rocznik obok (to jest 1983).",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984790463",
@@ -182,8 +191,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994682813",
@@ -219,8 +230,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984139817",
@@ -251,8 +264,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993007187",
@@ -283,8 +298,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7987130793",
@@ -315,8 +332,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993625085",
@@ -347,8 +366,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7979769106",
@@ -379,8 +400,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7985789682",
@@ -411,8 +434,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7978383150",
@@ -443,8 +468,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992808053",
@@ -475,8 +502,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984431120",
@@ -507,8 +536,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7990145280",
@@ -539,8 +570,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7991465550",
@@ -571,8 +604,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994071806",
@@ -603,8 +638,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984120554",
@@ -635,8 +672,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993619295",
@@ -669,8 +708,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993688760",
@@ -701,8 +742,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994376186",
@@ -733,8 +776,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7986589917",
@@ -765,8 +810,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 1300,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1974 Porsche 914 sprzedany 31 paź 2026 za 4 500 $. To ogłoszenie jest rozebrane, komparator nie opisuje kosza części."
-      }
+        "compNote": "Szacunek. BaT: 1974 Porsche 914 sprzedany 31 paź 2026 za 4 500 $. To ogłoszenie jest rozebrane, komparator nie opisuje kosza części.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989717966",
@@ -797,8 +844,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989329805",
@@ -829,8 +878,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992218694",
@@ -861,8 +912,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994409486",
@@ -893,8 +946,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7986838095",
@@ -925,8 +980,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984721535",
@@ -959,8 +1016,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7981514931",
@@ -991,8 +1050,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989463785",
@@ -1023,8 +1084,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989471063",
@@ -1055,8 +1118,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7979263035",
@@ -1087,8 +1152,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992217371",
@@ -1121,8 +1188,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7991386812",
@@ -1153,8 +1222,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993755066",
@@ -1185,8 +1256,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-911sc",
@@ -1217,8 +1290,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 8000,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: projekt 1980 911SC Targa sprzedany 10 paź 2026 za 23 500 $. Czyste coupe idą wyraźnie wyżej; tu bierzemy projekt jako ostrożny punkt."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: projekt 1980 911SC Targa sprzedany 10 paź 2026 za 23 500 $. Czyste coupe idą wyraźnie wyżej; tu bierzemy projekt jako ostrożny punkt.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-996",
@@ -1249,8 +1324,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993105083",
@@ -1281,8 +1358,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7990500531",
@@ -1313,8 +1392,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994680665",
@@ -1345,8 +1426,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992472329",
@@ -1377,8 +1460,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994380902",
@@ -1409,8 +1494,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993746312",
@@ -1441,8 +1528,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984885026",
@@ -1473,8 +1562,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992283542",
@@ -1505,8 +1596,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7987124856",
@@ -1537,8 +1630,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7981362414",
@@ -1569,8 +1664,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7978127991",
@@ -1601,8 +1698,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7988306940",
@@ -1633,8 +1732,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7987379247",
@@ -1665,8 +1766,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-230ge",
@@ -1697,8 +1800,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-280sel",
@@ -1729,8 +1834,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-2002",
@@ -1761,8 +1868,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-westy",
@@ -1793,8 +1902,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cc-1600",
@@ -1825,8 +1936,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7991298852",
@@ -1857,8 +1970,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7986582384",
@@ -1889,8 +2004,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992715773",
@@ -1921,8 +2038,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7986165888",
@@ -1953,8 +2072,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7985705703",
@@ -1985,8 +2106,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7983124383",
@@ -2017,8 +2140,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7982432373",
@@ -2049,8 +2174,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7985301552",
@@ -2081,8 +2208,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7993168728",
@@ -2113,8 +2242,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989429876",
@@ -2145,8 +2276,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7984124895",
@@ -2177,8 +2310,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7986267195",
@@ -2211,8 +2346,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7992252387",
@@ -2243,8 +2380,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7990396770",
@@ -2275,8 +2414,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994168115",
@@ -2307,8 +2448,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7978942323",
@@ -2341,8 +2484,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7978651062",
@@ -2373,8 +2518,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7979019747",
@@ -2405,8 +2552,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7989305688",
@@ -2439,8 +2588,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7981757871",
@@ -2473,8 +2624,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7994543970",
@@ -2505,8 +2658,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "7990504581",
@@ -2537,8 +2692,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": null
-      }
+        "compNote": null,
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-300d-87",
@@ -2569,8 +2726,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 6300,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1987 Mercedes 300D Turbo sprzedany 3 lis 2026 za 8 100 $. Przebieg tamtego auta nie jest w tytule wyniku."
-      }
+        "compNote": "Szacunek. BaT: 1987 Mercedes 300D Turbo sprzedany 3 lis 2026 za 8 100 $. Przebieg tamtego auta nie jest w tytule wyniku.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-fj40-77",
@@ -2601,8 +2760,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 5800,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1976 Toyota Land Cruiser FJ40 sprzedany 27 paź 2026 za 15 000 $. Ładniejszy 1977 ze skrzynią 5-biegową poszedł 6 paź 2026 za 36 500 $ — tego nie bierzemy jako ceny as-is."
-      }
+        "compNote": "Szacunek. BaT: 1976 Toyota Land Cruiser FJ40 sprzedany 27 paź 2026 za 15 000 $. Ładniejszy 1977 ze skrzynią 5-biegową poszedł 6 paź 2026 za 36 500 $ — tego nie bierzemy jako ceny as-is.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-lx450",
@@ -2633,8 +2794,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 7000,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1996 Toyota Land Cruiser FZJ80 sprzedany 31 paź 2026 za 19 500 $. To ten sam 80-serii; LX450 jest wersją Lexusa."
-      }
+        "compNote": "Szacunek. BaT: 1996 Toyota Land Cruiser FZJ80 sprzedany 31 paź 2026 za 19 500 $. To ten sam 80-serii; LX450 jest wersją Lexusa.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-4runner-95",
@@ -2665,8 +2828,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Na BaT 23 paź 2026 1993 4Runner SR5 V6 4WD 5-biegowy sprzedany za 15 000 $ — za mało wiadomo o jego przebiegu, żeby porównać z 386 tys. mil."
-      }
+        "compNote": "Szacunek: brak danych. Na BaT 23 paź 2026 1993 4Runner SR5 V6 4WD 5-biegowy sprzedany za 15 000 $ — za mało wiadomo o jego przebiegu, żeby porównać z 386 tys. mil.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-volvo-92",
@@ -2697,8 +2862,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3000,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1992 Volvo 240 kombi sprzedane 26 paź 2026 za 7 500 $. Inne 1992 kombi z 5-biegową skrzynią poszło 8 paź za 12 250 $ — tu nie wiadomo, czy jest manual."
-      }
+        "compNote": "Szacunek. BaT: 1992 Volvo 240 kombi sprzedane 26 paź 2026 za 7 500 $. Inne 1992 kombi z 5-biegową skrzynią poszło 8 paź za 12 250 $ — tu nie wiadomo, czy jest manual.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-volvo-90",
@@ -2731,8 +2898,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 9 wrz 2026 sprzedał 1990 240 DL sedan za 3 900 $ — to sedan bez salvage, nie to kombi."
-      }
+        "compNote": "Szacunek: brak danych. BaT 9 wrz 2026 sprzedał 1990 240 DL sedan za 3 900 $ — to sedan bez salvage, nie to kombi.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-supra-80",
@@ -2763,8 +2932,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3151,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1979 Toyota Celica Supra sprzedana 25 paź 2026 za 9 151 $. Rocznik obok."
-      }
+        "compNote": "Szacunek. BaT: 1979 Toyota Celica Supra sprzedana 25 paź 2026 za 9 151 $. Rocznik obok.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-z3-96",
@@ -2795,8 +2966,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał Z3 2.8 za 5 600–11 000 $. To inny silnik niż prawdopodobne 1.9 z 1996."
-      }
+        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał Z3 2.8 za 5 600–11 000 $. To inny silnik niż prawdopodobne 1.9 z 1996.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-z3-30",
@@ -2827,8 +3000,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Świeże sprzedaże BaT dotyczą Z3 ze skrzynią ręczną (np. 2001 2.5i 5-biegowy, 24 tys. mil, 18 paź 2026 za 16 250 $), nie automatu ze 112 tys. mil."
-      }
+        "compNote": "Szacunek: brak danych. Świeże sprzedaże BaT dotyczą Z3 ze skrzynią ręczną (np. 2001 2.5i 5-biegowy, 24 tys. mil, 18 paź 2026 za 16 250 $), nie automatu ze 112 tys. mil.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-z3-coupe",
@@ -2859,8 +3034,10 @@
         "estPartsCost": null,
         "estProfitAsIs": -3999,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1999 BMW Z3 Coupe 2.8 sprzedane 5 paź 2026 za 18 000 $. To słabszy silnik i inny stan lakieru; prośba 21 999 $ jest już powyżej tej sprzedaży."
-      }
+        "compNote": "Szacunek. BaT: 1999 BMW Z3 Coupe 2.8 sprzedane 5 paź 2026 za 18 000 $. To słabszy silnik i inny stan lakieru; prośba 21 999 $ jest już powyżej tej sprzedaży.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-crx-87",
@@ -2891,8 +3068,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Świeże wyniki BaT to CRX Si (np. 20 000–26 500 $), a to jest DX."
-      }
+        "compNote": "Szacunek: brak danych. Świeże wyniki BaT to CRX Si (np. 20 000–26 500 $), a to jest DX.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-crx-88",
@@ -2925,8 +3104,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Najbliższy wynik BaT to doładowany 1988 CRX ze swapem B18, sprzedany 29 wrz 2026 za 14 000 $ — inny zakres przeróbek i nie salvage."
-      }
+        "compNote": "Szacunek: brak danych. Najbliższy wynik BaT to doładowany 1988 CRX ze swapem B18, sprzedany 29 wrz 2026 za 14 000 $ — inny zakres przeróbek i nie salvage.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-mr2-91",
@@ -2957,8 +3138,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 14 paź 2026 sprzedał 1991 MR2 Turbo 5-biegowe za 20 000 $ — to turbo, nie wolnossące z automatem."
-      }
+        "compNote": "Szacunek: brak danych. BaT 14 paź 2026 sprzedał 1991 MR2 Turbo 5-biegowe za 20 000 $ — to turbo, nie wolnossące z automatem.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-mr2-85",
@@ -2989,8 +3172,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 2 wrz 2026 sprzedał 1988 MR2 Supercharged za 26 000 $. To doładowana wersja, nie podstawowe 1985."
-      }
+        "compNote": "Szacunek: brak danych. BaT 2 wrz 2026 sprzedał 1988 MR2 Supercharged za 26 000 $. To doładowana wersja, nie podstawowe 1985.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-mgb",
@@ -3021,8 +3206,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT: 1979 MGB sprzedany 3 lis 2026 za 5 700 $, a 1974 MGB 29 paź 2026 za 14 050 $. Za duży rozrzut, żeby wskazać jedną cenę as-is."
-      }
+        "compNote": "Szacunek: brak danych. BaT: 1979 MGB sprzedany 3 lis 2026 za 5 700 $, a 1974 MGB 29 paź 2026 za 14 050 $. Za duży rozrzut, żeby wskazać jedną cenę as-is.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-westy-85",
@@ -3053,8 +3240,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT: zadbany 1984 Westfalia sprzedany 29 paź 2026 za 12 750 $, a projekt 1985 Wolfsburg 29 wrz 2026 za 4 900 $. To auto jest między tymi stanami."
-      }
+        "compNote": "Szacunek: brak danych. BaT: zadbany 1984 Westfalia sprzedany 29 paź 2026 za 12 750 $, a projekt 1985 Wolfsburg 29 wrz 2026 za 4 900 $. To auto jest między tymi stanami.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-syncro",
@@ -3085,8 +3274,10 @@
         "estPartsCost": null,
         "estProfitAsIs": -1750,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1989 Vanagon GL Syncro sprzedany 17 wrz 2026 za 27 250 $. Nowszy 1991 Westfalia Syncro poszedł 15 paź za 36 750 $ — to inny rocznik i stan."
-      }
+        "compNote": "Szacunek. BaT: 1989 Vanagon GL Syncro sprzedany 17 wrz 2026 za 27 250 $. Nowszy 1991 Westfalia Syncro poszedł 15 paź za 36 750 $ — to inny rocznik i stan.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-fj40-68",
@@ -3117,8 +3308,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3750,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1964 FJ40 z silnikiem 350 sprzedany 5 paź 2026 za 22 750 $. Inny FJ40 z 350, rocznik 1971, poszedł 27 paź za 28 500 $."
-      }
+        "compNote": "Szacunek. BaT: 1964 FJ40 z silnikiem 350 sprzedany 5 paź 2026 za 22 750 $. Inny FJ40 z 350, rocznik 1971, poszedł 27 paź za 28 500 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-bronco-72",
@@ -3149,8 +3342,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 1 lis 2026 sprzedał jeżdżącego 1971 Bronco Sport 302 za 23 000 $. To auto stoi ćwierć wieku i nie ma dachu."
-      }
+        "compNote": "Szacunek: brak danych. BaT 1 lis 2026 sprzedał jeżdżącego 1971 Bronco Sport 302 za 23 000 $. To auto stoi ćwierć wieku i nie ma dachu.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-bronco-67",
@@ -3181,8 +3376,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży samej karoserii bez silnika, do której da się to przyłożyć."
-      }
+        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży samej karoserii bez silnika, do której da się to przyłożyć.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-mustang-67",
@@ -3213,8 +3410,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 4375,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1966 Ford Mustang kabriolet 289 sprzedany 22 paź 2026 za 25 875 $. Rocznik o jeden wcześniej."
-      }
+        "compNote": "Szacunek. BaT: 1966 Ford Mustang kabriolet 289 sprzedany 22 paź 2026 za 25 875 $. Rocznik o jeden wcześniej.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-mach1",
@@ -3245,8 +3444,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży 1973 Mach 1 na BaT w zebranym zestawieniu; wyniki 1966 fastback GT dotyczą innego auta."
-      }
+        "compNote": "Szacunek: brak danych. Nie ma świeżej sprzedaży 1973 Mach 1 na BaT w zebranym zestawieniu; wyniki 1966 fastback GT dotyczą innego auta.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-vette-68",
@@ -3277,8 +3478,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Świeże 1968 na BaT to kabriolety (350-konny kabriolet 20 paź 2026 za 21 250 $, L89 427 za 83 000 $), nie to coupe."
-      }
+        "compNote": "Szacunek: brak danych. Świeże 1968 na BaT to kabriolety (350-konny kabriolet 20 paź 2026 za 21 250 $, L89 427 za 83 000 $), nie to coupe.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-c10-75",
@@ -3309,8 +3512,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT sprzedaje głównie jeżdżące, często przerobione C10 (np. 1979 z silnikiem LQ4, 27 paź 2026, 14 500 $). To nie jest ten stan."
-      }
+        "compNote": "Szacunek: brak danych. BaT sprzedaje głównie jeżdżące, często przerobione C10 (np. 1979 z silnikiem LQ4, 27 paź 2026, 14 500 $). To nie jest ten stan.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-s2000",
@@ -3341,8 +3546,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT: 2003 S2000 z 27 tys. mil sprzedany 26 paź 2026 za 33 000 $, a egzemplarz z 7 tys. mil 30 paź za 38 250 $. To auto ma 46 tys. mil i zmiany zawieszenia."
-      }
+        "compNote": "Szacunek: brak danych. BaT: 2003 S2000 z 27 tys. mil sprzedany 26 paź 2026 za 33 000 $, a egzemplarz z 7 tys. mil 30 paź za 38 250 $. To auto ma 46 tys. mil i zmiany zawieszenia.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-xjs",
@@ -3373,8 +3580,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał XJS od 3 500 $ (projekt) do 26 750 $ (20 tys. mil, kabriolet V12). To ogłoszenie nie podaje przebiegu."
-      }
+        "compNote": "Szacunek: brak danych. BaT w październiku 2026 sprzedawał XJS od 3 500 $ (projekt) do 26 750 $ (20 tys. mil, kabriolet V12). To ogłoszenie nie podaje przebiegu.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-slk-99",
@@ -3407,8 +3616,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 8 paź 2026 sprzedał 1999 SLK230 z 18 tys. mil za 17 750 $. To nie jest salvage ze 193 tys. mil."
-      }
+        "compNote": "Szacunek: brak danych. BaT 8 paź 2026 sprzedał 1999 SLK230 z 18 tys. mil za 17 750 $. To nie jest salvage ze 193 tys. mil.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-slk-320",
@@ -3439,8 +3650,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. Najbliższy ręczny wynik BaT to 2011 SLK300 6-biegowy, 47 tys. mil, sprzedany 6 paź 2026 za 16 000 $ — inna generacja."
-      }
+        "compNote": "Szacunek: brak danych. Najbliższy ręczny wynik BaT to 2011 SLK300 6-biegowy, 47 tys. mil, sprzedany 6 paź 2026 za 16 000 $ — inna generacja.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-e320-94",
@@ -3471,8 +3684,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych dla sedana. BaT w październiku 2026 sprzedawał E320 coupe i kabriolety za 16 000–21 750 $. To inne nadwozia."
-      }
+        "compNote": "Szacunek: brak danych dla sedana. BaT w październiku 2026 sprzedawał E320 coupe i kabriolety za 16 000–21 750 $. To inne nadwozia.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-fzj80",
@@ -3503,8 +3718,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 5600,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1997 FZJ80 Collector’s Edition sprzedany 30 paź 2026 za 7 700 $. Inne CE szły też za 25 759 $ i 49 250 $, więc 7 700 $ to dolny, bliższy zużytemu egzemplarzowi punkt."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1997 FZJ80 Collector’s Edition sprzedany 30 paź 2026 za 7 700 $. Inne CE szły też za 25 759 $ i 49 250 $, więc 7 700 $ to dolny, bliższy zużytemu egzemplarzowi punkt.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-m3-01",
@@ -3535,8 +3752,10 @@
         "estPartsCost": null,
         "estProfitAsIs": -4500,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 2002 M3 coupe 6-biegowe sprzedane 28 paź 2026 za 27 500 $."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 2002 M3 coupe 6-biegowe sprzedane 28 paź 2026 za 27 500 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-mustang-66",
@@ -3567,8 +3786,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. BaT 3 lis 2026 sprzedał 1966 fastback GT za 51 500 $, a coupe 289 za 8 000 $ 26 paź. Żaden nie jest zwykłym fastbackiem 289."
-      }
+        "compNote": "Szacunek: brak danych. BaT 3 lis 2026 sprzedał 1966 fastback GT za 51 500 $, a coupe 289 za 8 000 $ 26 paź. Żaden nie jest zwykłym fastbackiem 289.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-chevelle-66",
@@ -3599,8 +3820,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 25500,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta, młotek będzie wyższy. BaT: 1966 Chevelle SS 396 sport coupe sprzedany 25 sie 2026 za 45 500 $. Inny, 31 lat w jednych rękach, 24 wrz 2026 za 50 500 $."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta, młotek będzie wyższy. BaT: 1966 Chevelle SS 396 sport coupe sprzedany 25 sie 2026 za 45 500 $. Inny, 31 lat w jednych rękach, 24 wrz 2026 za 50 500 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-560sel",
@@ -3631,8 +3854,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1988 560SEL sprzedany 2 lis 2026 za 11 777 $. Kupno pominięte, bo aukcja nie ma jeszcze oferty. 21-tysięczny 1989 poszedł 24 wrz za 25 000 $ — inny przebieg."
-      }
+        "compNote": "Szacunek. BaT: 1988 560SEL sprzedany 2 lis 2026 za 11 777 $. Kupno pominięte, bo aukcja nie ma jeszcze oferty. 21-tysięczny 1989 poszedł 24 wrz za 25 000 $ — inny przebieg.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-healey-66",
@@ -3663,8 +3888,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 3750,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1967 Austin-Healey 3000 BJ8 Mk III sprzedany 28 paź 2026 za 50 000 $."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1967 Austin-Healey 3000 BJ8 Mk III sprzedany 28 paź 2026 za 50 000 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-boxster-550",
@@ -3695,8 +3922,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 21450,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa, a oferta 550 $ nie jest realną ceną zakupu. BaT: 2004 Boxster S 550 Anniversary sprzedany 29 paź 2026 za 22 000 $. Inny Boxster S z 20 tys. mil, nie ta edycja, poszedł 23 paź za 40 486 $."
-      }
+        "compNote": "Szacunek. Aukcja trwa, a oferta 550 $ nie jest realną ceną zakupu. BaT: 2004 Boxster S 550 Anniversary sprzedany 29 paź 2026 za 22 000 $. Inny Boxster S z 20 tys. mil, nie ta edycja, poszedł 23 paź za 40 486 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-boss-302",
@@ -3727,8 +3956,10 @@
         "estPartsCost": null,
         "estProfitAsIs": null,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek: brak danych. W zebranych wynikach BaT nie ma świeżej sprzedaży innego Boss 302, do której da się przyłożyć obecną ofertę."
-      }
+        "compNote": "Szacunek: brak danych. W zebranych wynikach BaT nie ma świeżej sprzedaży innego Boss 302, do której da się przyłożyć obecną ofertę.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "bat-k10-72",
@@ -3759,8 +3990,10 @@
         "estPartsCost": null,
         "estProfitAsIs": 0,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1972 Chevrolet C10 Custom Deluxe z silnikiem 454 sprzedany 21 paź 2026 za 20 000 $."
-      }
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 1972 Chevrolet C10 Custom Deluxe z silnikiem 454 sprzedany 21 paź 2026 za 20 000 $.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-tt-01",
@@ -3791,8 +4024,10 @@
         "estPartsCost": null,
         "estProfitAsIs": -695,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 2003 Audi TT Roadster sprzedany 7 paź 2026 za 9 000 $. Coupe z 2002, quattro, 5 biegów, poszło 15 paź za 10 750 $ — inne nadwozie."
-      }
+        "compNote": "Szacunek. BaT: 2003 Audi TT Roadster sprzedany 7 paź 2026 za 9 000 $. Coupe z 2002, quattro, 5 biegów, poszło 15 paź za 10 750 $ — inne nadwozie.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
     },
     {
       "id": "cl-tr6-71",
@@ -3823,8 +4058,561 @@
         "estPartsCost": null,
         "estProfitAsIs": -2500,
         "estProfitAfterRepair": null,
-        "compNote": "Szacunek. BaT: 1973 Triumph TR6 sprzedany 28 paź 2026 za 20 000 $. Inny 1973 z silnikiem 350 poszedł 15 paź za 22 000 $. Prośba 22 500 $ jest już przy górze zwykłych sprzedaży."
+        "compNote": "Szacunek. BaT: 1973 Triumph TR6 sprzedany 28 paź 2026 za 20 000 $. Inny 1973 z silnikiem 350 poszedł 15 paź za 22 000 $. Prośba 22 500 $ jest już przy górze zwykłych sprzedaży.",
+        "suggestedOffer": null
+      },
+      "segment": "klasyki"
+    },
+    {
+      "id": "nw-4runner-05",
+      "title": "2005 Toyota 4Runner SR5 4x4, uszczelka pod głowicą",
+      "price": 6000,
+      "mileage": null,
+      "city": "San Francisco",
+      "distanceMiles": 15,
+      "url": "https://www.craigslist.org/view/d/san-francisco-runner-sr5-v6-4wd-needs/hvKCahuSPZRCsggmpgF7LU",
+      "condition": "proj",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "dobra",
+      "note": "Od nowości w jednej rodzinie, serwis w ASO, bez rdzy i bez wypadków według sprzedawcy. Płyn chłodzący wchodzi do 4. cylindra. Mechanik właściciela wycenił naprawę uszczelki na 6–8 tys. $ razem z robocizną.",
+      "know": "Czwarta generacja 4Runner (4.0 V6) lubi uszczelkę przy przegrzaniu. Wycena 6–8 tys. $ jest za pracę warsztatu, nie za same części, więc koszt części zostaje pusty. Po naprawie punkt odniesienia to jeżdżący SR5, nie to auto w obecnym stanie.",
+      "profit": {
+        "buyPrice": 6000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": 27000,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek. As-is: brak danych, bo auto nie jeździ na wszystkich cylindrach. Po naprawie: BaT, 2007 4Runner SR5 4WD sprzedany 21 wrz 2026 za 27 000 $. Koszt części: brak danych — podane 6–8 tys. $ to wycena warsztatu z robocizną."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00i0i_kSthLvuKKZo_0kE0dM_600x450.jpg",
+      "posted": "2026-11-03",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-wrx-07",
+      "title": "2007 Subaru Impreza WRX, 120 tys. mil",
+      "price": 6700,
+      "mileage": 120000,
+      "city": "Berkeley",
+      "distanceMiles": 21,
+      "url": "https://www.craigslist.org/view/d/berkeley-2007-subaru-wrx/nYvxANYDtH6XraiSZPHjPm",
+      "condition": "run",
+      "category": "japo",
+      "brand": "subaru",
+      "deal": "perelka",
+      "note": "Drugi właściciel, 120 tys. mil, czysty tytuł, bez wypadków. Gwint, catback, Cobb. Siedzenia z przodu zużyte. W tekście 6 900 $ or best offer, na tablicy 6 700 $. Auto jest PNO przez wydech; sprzedawca pisze, że dopłaci rejestrację.",
+      "know": "WRX z tych lat sprawdzić pod kątem stuków panewek i czy Cobb nie jest ustawiony na biedną mieszankę. Catback bez katalizatora może nie przejść smogu w Kalifornii.",
+      "profit": {
+        "buyPrice": 6700,
+        "sellAsIsValue": 11500,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 4800,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": 6000,
+        "compNote": "Szacunek. BaT: 2007 Subaru Impreza WRX sedan 5-biegowy sprzedany 20 paź 2026 za 11 500 $. Oferta 6 000 $ to szacunek przy zapisie „or best offer”, nie kwota ze strony."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00707_a9YmwIObwBR_0CI0t2_600x450.jpg",
+      "posted": "2026-10-30",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-wrx-11",
+      "title": "2011 Subaru Impreza WRX hatch, 5 biegów, 134 tys. mil",
+      "price": 8800,
+      "mileage": 134000,
+      "city": "San Jose",
+      "distanceMiles": 29,
+      "url": "https://www.craigslist.org/view/d/san-jose-2011-subaru-impreza-wrx/bNhvXxcUNLJAkvGUgog3D2",
+      "condition": "run",
+      "category": "japo",
+      "brand": "subaru",
+      "deal": "rynek",
+      "note": "Czysty tytuł, 134 tys. mil, smog zrobiony, skrzynia ręczna. Obniżone, głośny wydech, inne lampy.",
+      "know": "Hatch z manualem jest lepszy do odsprzedaży niż sedan z automatem, ale obniżone zawieszenie i wydech to rzeczy, które część kupujących będzie chciała cofnąć.",
+      "profit": {
+        "buyPrice": 8800,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. Najbliższy wynik to 2007 WRX sprzedany 20 paź 2026 za 11 500 $. Ten egzemplarz ma 134 tys. mil i jest obniżony, więc tamtej ceny nie podstawiam."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00404_fApWlg1dHYq_0CI0t2_600x450.jpg",
+      "posted": "2026-11-02",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-miata-08",
+      "title": "2008 Mazda MX-5 Miata GT, twardy dach, 6 biegów",
+      "price": 11500,
+      "mileage": null,
+      "city": "Larkspur",
+      "distanceMiles": 28,
+      "url": "https://www.craigslist.org/view/d/larkspur-2008-miata-gt-hard-top/pt1oQUGGyJC6z9SqD5izgR",
+      "condition": "run",
+      "category": "japo",
+      "brand": "mazda",
+      "deal": "dobra",
+      "note": "GT ze składanym twardym dachem i skrzynią ręczną. Nowe amortyzatory KYB (poniżej 1000 mil), skórzane podgrzewane fotele, inne radio. Przebieg w ogłoszeniu niepodany.",
+      "know": "NC z PRHT i manualem jest właściwą specyfikacją. Sprawdzić, czy dach domyka się bez błędu i czy progi nie mają rdzy. Bez licznika szacunek jest ostrożny.",
+      "profit": {
+        "buyPrice": 11500,
+        "sellAsIsValue": 13800,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 2300,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek. BaT: 2008 MX-5 Miata Grand Touring z twardym dachem, 39 tys. mil, sprzedany 28 paź 2026 za 13 800 $. Tu przebieg nie jest podany."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00E0E_evcEXFyie37_0CI0t2_600x450.jpg",
+      "posted": "2026-10-18",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-gx470-06",
+      "title": "2006 Lexus GX470, jeden właściciel",
+      "price": 11600,
+      "mileage": null,
+      "city": "Santa Rosa",
+      "distanceMiles": 64,
+      "url": "https://www.craigslist.org/view/d/santa-rosa-2006-lexus-gx470-original/ejhfeqPDpGr7PwMWyfwMLh",
+      "condition": "run",
+      "category": "japo",
+      "brand": "lexus",
+      "deal": "dobra",
+      "note": "Jeden właściciel według ogłoszenia, Kalifornia od nowości, bez wypadków, nie holował, nowy rozrząd i świece. Przebieg niepodany.",
+      "know": "GX470 (4.7 2UZ) potrzebuje rozrządu co około 90 tys. mil. Tu sprzedawca pisze, że pasek jest nowy. Bez licznika bierzemy dolny świeży wynik, nie te po 24 tys. $.",
+      "profit": {
+        "buyPrice": 11600,
+        "sellAsIsValue": 12750,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 1150,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek. BaT: 2006 GX470 sprzedany 16 paź 2026 za 12 750 $. Inne 2006–2007 szły 23–24 paź za 22 500–24 750 $. Przebieg tego auta nie jest podany, więc as-is to dolny wynik."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00N0N_f1cDDa3nSI3_0CI0t2_600x450.jpg",
+      "posted": "2026-10-30",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-gx470-09",
+      "title": "2009 Lexus GX470, 213 tys. mil",
+      "price": 11400,
+      "mileage": 213000,
+      "city": "Campbell",
+      "distanceMiles": 28,
+      "url": "https://www.craigslist.org/view/d/campbell-2009-lexus-gx-470-excellent/d1ja2KGxk4e1yAzFpVUz5K",
+      "condition": "run",
+      "category": "japo",
+      "brand": "lexus",
+      "deal": "rynek",
+      "note": "213 tys. mil, oryginalny lakier, bez wypadków, smog zrobiony. Rozrząd i pompa wody rok temu.",
+      "know": "Przy 213 tys. mil liczy się rama, skrzynia i czy 2UZ nie bierze oleju. Świeże GX470 na BaT nie mają w tytule takiego przebiegu.",
+      "profit": {
+        "buyPrice": 11400,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. BaT sprzedawał GX470 2006–2007 za 12 750–24 750 $ bez podania 213 tys. mil, więc nie przykładam tych kwot."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00e0e_hiEXNs9VmE5_0CI0t2_600x450.jpg",
+      "posted": "2026-11-02",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-gx460-10",
+      "title": "2010 Lexus GX460, 170 tys. mil",
+      "price": 13900,
+      "mileage": 170000,
+      "city": "Roseville",
+      "distanceMiles": 99,
+      "url": "https://www.craigslist.org/view/d/roseville-2010-lexus-gx-clean-title/pvuhaBJpUmYWuDVCVeJt8c",
+      "condition": "run",
+      "category": "japo",
+      "brand": "lexus",
+      "deal": "rynek",
+      "note": "170 tys. mil, czysty tytuł, smog z dnia ogłoszenia. Sprzedawca pisze, że jeździ bez usterek i jest czysty w środku.",
+      "know": "GX460 (4.6 1UR) nie ma paska rozrządu jak GX470, ma łańcuch. Przy 170 tys. mil sprawdzić zawieszenie pneumatyczne tylnej osi, jeśli jest, i czy skrzynia nie szarpie.",
+      "profit": {
+        "buyPrice": 13900,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. Świeże wyniki BaT dla GX460 to roczniki 2017 i 2022, a GX470 to inny silnik."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00505_lOMTEs30yIV_0ak07K_600x450.jpg",
+      "posted": "2026-10-22",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-gti-16",
+      "title": "2016 Volkswagen GTI, manual, 143 tys. mil",
+      "price": 10000,
+      "mileage": 143347,
+      "city": "Fremont",
+      "distanceMiles": 18,
+      "url": "https://www.craigslist.org/view/d/fremont-2016-volkswagen-gti-manual/3s5a6z4FRCyR7WtRT22bEw",
+      "condition": "run",
+      "category": "euro",
+      "brand": "vw",
+      "deal": "rynek",
+      "note": "Skrzynia ręczna, 143 347 mil, czysty tytuł. Nowe klocki, nowe przednie opony z gwarancji, zbieżność, pompa wody i miska oleju. Stage 1.",
+      "know": "MK7 GTI z manualem jest lepsze niż DSG do prostej odsprzedaży, ale stage 1 i 143 tys. mil odcinają je od cen niskich przebiegów. Pompa wody w tych silnikach bywa słabym punktem — tu jest już zrobiona.",
+      "profit": {
+        "buyPrice": 10000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. BaT 18 września 2026 sprzedał 2019 Golf GTI S ze skrzynią ręczną za 18 500 $. To inny rocznik i nie ma 143 tys. mil, więc tej kwoty nie podstawiam."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00k0k_5UND3Dta7ll_0CI0t2_600x450.jpg",
+      "posted": "2026-11-03",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-gti-12",
+      "title": "2012 Volkswagen GTI, automat, 108 tys. mil",
+      "price": 7600,
+      "mileage": 108000,
+      "city": "Sunnyvale",
+      "distanceMiles": 21,
+      "url": "https://www.craigslist.org/view/d/sunnyvale-2012-volkswagen-gti/ozmRGBi1cjmW8xQC4uRu3j",
+      "condition": "run",
+      "category": "euro",
+      "brand": "vw",
+      "deal": "rynek",
+      "note": "Automat, 108 tys. mil, czysty tytuł. Krótkie ogłoszenie, sprzedawca pisze, że stan jest bardzo dobry.",
+      "know": "MK6 z automatem jest mniej chodliwy niż ręczny. Sprawdzić łańcuch i czy DSG albo zwykły automat nie szarpie — ogłoszenie nie mówi, która to skrzynia poza słowem automatic.",
+      "profit": {
+        "buyPrice": 7600,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. Jedyny bliski wynik to oferta, nie sprzedaż: 2009 GTI 6-biegowy licytowany do 8 300 $ 6 paź 2026 i nie sprzedany."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00Z0Z_bqW0nkiNuv1_0CI0t2_600x450.jpg",
+      "posted": "2026-11-03",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-fj-07",
+      "title": "2007 Toyota FJ Cruiser, manual, 267 tys. mil",
+      "price": 11500,
+      "mileage": 267000,
+      "city": "Sacramento",
+      "distanceMiles": 83,
+      "url": "https://www.craigslist.org/view/d/sacramento-2007-fj-cruiser-6mt-267k/xoE4xgDMve8GTa5iesYiNR",
+      "condition": "run",
+      "category": "japo",
+      "brand": "toyota",
+      "deal": "rynek",
+      "note": "Kalifornia, bez rdzy według sprzedawcy, rejestracja do czerwca 2027. Manual, 267 tys. mil, felgi Rough Country, większe opony, inne radio i przycisk start.",
+      "know": "Ręczny FJ jest rzadszy w ogłoszeniach niż automat, ale 267 tys. mil i lift zmieniają kupującego. Nie przykładam cen niskoprzebiegowych FJ z BaT.",
+      "profit": {
+        "buyPrice": 11500,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. BaT 3 lis 2026 sprzedał 2007 FJ Cruiser za 19 505 $ bez przebiegu w tytule. FJ z 27–43 tys. mil idą po 29–43 tys. $ i nie są tym autem."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00M0M_kfVUbGnMdsh_0lR0t2_600x450.jpg",
+      "posted": "2026-10-20",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-cls63-07",
+      "title": "2007 Mercedes CLS63 AMG, 155 tys. mil",
+      "price": 9000,
+      "mileage": 155000,
+      "city": "Suisun City",
+      "distanceMiles": 48,
+      "url": "https://www.craigslist.org/view/d/suisun-city-2007-mercedes-benz-amg-cls63/kStKAF3jM46mewTo5QPd7v",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "rynek",
+      "note": "155 tys. mil, sprzedawca pisze, że silnik i skrzynia są mocne, nowe opony, skóra i alcantara. Jest dopisek o pomocy w finansowaniu.",
+      "know": "M156 w CLS63 lubi podnośniki hydrauliczne i panewki. 155 tys. mil bez rachunków to nie jest okazja tylko dlatego, że to AMG. Finansowanie w ogłoszeniu prywatnym traktować ostrożnie.",
+      "profit": {
+        "buyPrice": 9000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. Najbliższa sprzedaż BaT to 2014 CLS63 AMG za 17 500 $ 8 sie 2026 — inna generacja i bez 155 tys. mil."
+      },
+      "source": "Craigslist",
+      "photo": "https://images.craigslist.org/00u0u_c5LjapJJdQN_0CI0t2_600x450.jpg",
+      "posted": "2026-11-02",
+      "auctionEnd": null,
+      "marketNote": null,
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "segment": "nowsze"
+    },
+    {
+      "id": "nw-bat-sc430",
+      "title": "2007 Lexus SC430, 35 tys. mil (aukcja)",
+      "price": 21000,
+      "mileage": 35000,
+      "city": "Oakland",
+      "distanceMiles": 27,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2007-lexus-sc430-34/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/09/DVSC430Auction-4-1-copy-2026-10-30-dng-655a2609fcda6e5c9f42c506be0fe9c5.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "japo",
+      "brand": "lexus",
+      "deal": "aukcja",
+      "note": "35 tys. mil, jeden zarejestrowany właściciel do 2026, dostarczony nowy do Lexusa w Sacramento. Oferta jest poniżej świeżych SC430 z podobnym przebiegiem, ale aukcja jeszcze trwa.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "7 lis, 11:55 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "SC430 dzieli napęd z LS430: 4.3 V8 i automat. Sprawdzić dach i czy w historii nie ma wycieków z chłodnicy. Obecna oferta nie jest ceną młotka.",
+      "segment": "nowsze",
+      "profit": {
+        "buyPrice": 21000,
+        "sellAsIsValue": 27000,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": 6000,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek. Aukcja trwa — kupno to obecna oferta. BaT: 2005 SC430 z 32 tys. mil sprzedany 6 paź 2026 za 27 000 $. 2004 z 37 tys. mil poszedł 13 paź za 31 250 $."
+      }
+    },
+    {
+      "id": "nw-bat-roush",
+      "title": "2011 Ford Mustang GT Roush Stage 2, 23 tys. mil (aukcja)",
+      "price": 10000,
+      "mileage": 23000,
+      "city": "Walnut Creek",
+      "distanceMiles": 38,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2011-ford-mustang-roush-stage-2/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/DSC06399-copy-2026-10-28-yl6-92cb85908da2861e1e29d72492fd1436.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "us",
+      "brand": "ford",
+      "deal": "aukcja",
+      "note": "23 tys. mil, pakiet Roush Stage 2 założony na nowe, 5.0, skrzynia ręczna, szpera. Oferta jest niska, ale nie ma świeżej sprzedaży tego samego Stage 2.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "6 lis, 12:17 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "Stage 2 to pakiet Rousha, nie Shelby. Liczy się, czy papiery Rousha są w aucie. Oferta 10 tys. $ przy 23 tys. mil wygląda nisko, ale bez sprzedanego bliźniaka nie wpisuję kwoty rynku.",
+      "segment": "nowsze",
+      "profit": {
+        "buyPrice": 10000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. 2012 Roush Stage 2 z 41 tys. mil był licytowany do 17 500 $ 21 paź 2026 i się nie sprzedał. Sprzedany 2014 Stage 3 z 7 tys. mil poszedł 13 paź za 34 800 $ — inny pakiet."
+      }
+    },
+    {
+      "id": "nw-bat-cayenne",
+      "title": "2012 Porsche Cayenne V6, 48 tys. mil (aukcja)",
+      "price": 958,
+      "mileage": 48000,
+      "city": "San Jose",
+      "distanceMiles": 27,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2012-porsche-cayenne-33/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8492-scaled-copy-2026-10-27-gxq-39bfd8d5fe3b39bc58f2d87629ec73a1.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "porsche",
+      "brand": "porsche",
+      "deal": "aukcja",
+      "note": "48 tys. mil, Nevada i Kalifornia od nowości, srebrny, silnik 3.6 V6 i Tiptronic. Oferta jest jeszcze symboliczna.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 13:47 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "To bazowy Cayenne V6, nie S ani Turbo. Porównania do Cayenne S nie są tą samą ceną. Przy 48 tys. mil i tak sprawdzić, czy nie ma wycieków z chłodnic i czy skrzynia nie szarpie.",
+      "segment": "nowsze",
+      "profit": {
+        "buyPrice": 958,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych dla V6. BaT 3 lis 2026 sprzedał 2013 Cayenne S za 15 500 $ i 2008 Cayenne S za 23 500 $. To wersje S, nie ten silnik."
+      }
+    },
+    {
+      "id": "nw-bat-gl550",
+      "title": "2008 Mercedes GL550 4MATIC (aukcja)",
+      "price": 3000,
+      "mileage": null,
+      "city": "San Jose",
+      "distanceMiles": 27,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2008-mercedes-benz-gl550-9/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7580-scaled-copy-2026-10-28-rye-d6d6ccbfa2f8ce12bc325dc1bc8e3743.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "mercedes",
+      "brand": "mercedes",
+      "deal": "aukcja",
+      "note": "GL550, 5.5 V8, felgi AMG w opisie. Przebieg w skrócie aukcji niepodany. Oferta na razie niska.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 13:16 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "GL550 z zawieszeniem pneumatycznym bywa tani w zakupie i drogi w miechach. Bez przebiegu i bez sprzedanego bliźniaka nie ma liczby rynku.",
+      "segment": "nowsze",
+      "profit": {
+        "buyPrice": 3000,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. W zebranych wynikach BaT nie ma sprzedaży GL550."
+      }
+    },
+    {
+      "id": "nw-bat-135i",
+      "title": "2011 BMW 135i kabriolet, 6 biegów (aukcja)",
+      "price": 135,
+      "mileage": null,
+      "city": "Hayward",
+      "distanceMiles": 14,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/2011-bmw-135i-convertible-13/",
+      "photo": "https://bringatrailer.com/wp-content/uploads/2026/10/RUID988437afac2e40b4ba124b6d2f76b832-scaled-copy-2026-10-28-229-62975cc0535363363813a0217963cdf9.jpg?w=470&h=318&crop=1",
+      "condition": "run",
+      "category": "bmw",
+      "brand": "bmw",
+      "deal": "aukcja",
+      "note": "Kabriolet, N54, skrzynia ręczna, Space Gray. Oferta jest jeszcze na początku aukcji.",
+      "marketNote": null,
+      "posted": null,
+      "auctionEnd": "9 lis, 14:01 PT",
+      "scamWarning": null,
+      "flags": [],
+      "rare": false,
+      "know": "N54 lubi pompy wysokiego ciśnienia i wtryski. Kabriolet nie jest coupe, więc sprzedaży coupe 135i tu nie podstawiam. Ręczna skrzynia jest plusem.",
+      "segment": "nowsze",
+      "profit": {
+        "buyPrice": 135,
+        "sellAsIsValue": null,
+        "sellAfterRepairValue": null,
+        "estPartsCost": null,
+        "estProfitAsIs": null,
+        "estProfitAfterRepair": null,
+        "suggestedOffer": null,
+        "compNote": "Szacunek: brak danych. BaT 9 paź 2026 sprzedał 2012 135i coupe M Sport za 12 000 $. To coupe, nie kabriolet."
       }
     }
+  ],
+  "topPicksNowsze": [
+    "nw-wrx-07",
+    "nw-miata-08",
+    "nw-bat-sc430",
+    "nw-gx470-06",
+    "nw-4runner-05"
   ]
 }

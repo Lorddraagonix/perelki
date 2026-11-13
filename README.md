@@ -95,8 +95,17 @@ Każdy element `listings`:
 | `posted` | `YYYY-MM-DD` lub `null` | Data dodania ogłoszenia. |
 | `auctionEnd` | string lub `null` | Koniec aukcji, np. `6 lis, 11:47 PT`. Gdy ustawione, cena ma przedrostek „Oferta:”. |
 | `scamWarning` | string lub `null` | Ostrzeżenie (czerwona ramka). `null`, gdy go nie ma. |
-| `segment` | `klasyki` albo `nowsze` | Która karta na górze strony. Brak pola znaczy `klasyki`, więc starszy plik dalej działa. |
+| `segment` | `klasyki`, `nowsze` albo `kevin` | Która karta na górze strony. Brak pola znaczy `klasyki`, więc starszy plik dalej działa. `kevin` to karta **Kevina auta** (rocznik od 2021, Mercedes, BMW, Audi). |
 | `flags` | tablica stringów | Krótkie czerwone flagi, np. `Tytuł salvage`, `Płatność krypto`. Pusta tablica, gdy nie ma. |
+| `year` | number lub brak | Rocznik. Na karcie Kevina, jak pola nie ma, rok jest brany z tytułu. |
+| `model` | string lub brak | Model na filtrze Kevina, np. `GLE` albo `X5`. Jak pola nie ma, strona próbuje odczytać model z tytułu. |
+| `trim` | string lub `null` | Dopisek wyposażenia, np. `AMG Line 4MATIC`, `xDrive`, `S line quattro`. |
+| `titleStatus` | `clean`, `rebuilt`, `salvage` lub `null` | Stan tytułu. Na karcie: czysty, rebuilt albo salvage. |
+| `damage` | `none`, `light` lub `null` | `none` = bez uszkodzeń, `light` = lekko uszkodzony (rysy, blacha), mechanicznie w porządku. |
+| `damageNote` | string lub `null` | Krótki opis uszkodzenia po polsku. |
+| `repairCost` | number lub `null` | Startowa kwota w kalkulatorze naprawy (blacharka i lakier, bez robocizny). Użytkownik może ją zmienić w przeglądarce; plik się od tego nie zmienia. |
+| `marketValue` | number lub `null` | Wartość rynkowa. Jak puste, karta bierze `profit.sellAsIsValue`. Inaczej pokazuje „brak danych”. |
+| `checkNote` | string lub `null` | Co sprawdzić, np. `sprawdzić lasery`. |
 
 `profit`:
 
@@ -113,7 +122,9 @@ Każdy element `listings`:
 
 Nie wpisuj kwoty „na oko”. Jak nie ma podobnej sprzedaży, zostaw `null`.
 
-`topPicks` to klasyki na karcie **Najlepsze okazje**. `topPicksNowsze` to to samo dla karty **Nowsze auta**. `labels` tłumaczy kody na polskie napisy.
+`topPicks` to klasyki na karcie **Najlepsze okazje**. `topPicksNowsze` to to samo dla karty **Nowsze auta**. Opcjonalne `topPicksKevin` ogranicza **Najlepsze okazje** na karcie Kevina; jak listy nie ma, ta karta pokazuje wszystkie ogłoszenia `segment: "kevin"` od największego rabatu. `labels` tłumaczy kody na polskie napisy.
+
+Rabat na karcie Kevina to `marketValue` (albo `profit.sellAsIsValue`) minus cena z ogłoszenia, w dolarach i w procentach. Kalkulator naprawy dodaje wpisaną cenę zakupu i koszt blachy. Zapisuje się tylko w przeglądarce na czas wizyty.
 
 Ulubione zostają w przeglądarce pod stałym `id` (klucz `perelki-ulubione-v2`). Jak ogłoszenie zniknie z pliku, karta zostaje wyszarzona. Nie zmieniaj `id` istniejącego auta przy codziennej poprawce.
 

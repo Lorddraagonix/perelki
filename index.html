@@ -13,7 +13,7 @@
   <header class="intro">
     <p class="kicker">San Mateo · około 100 mil</p>
     <h1>Perełki</h1>
-    <p class="lede">Dwie tablice: klasyki oraz nowsze auta z lat około 2005–2020, które da się kupić poniżej rynku. Na chodzie i do roboty.</p>
+    <p class="lede">Trzy tablice: klasyki, nowsze auta z lat około 2005–2020 i Kevina auta (rocznik od 2021, poniżej rynku). Na chodzie i do roboty.</p>
     <p class="updated">Aktualizacja: <time id="updated"></time></p>
   </header>
 
@@ -23,6 +23,7 @@
     <nav class="segments" aria-label="Rodzaj aut">
       <button type="button" id="seg-klasyki" data-segment="klasyki" aria-pressed="true">Klasyki</button>
       <button type="button" id="seg-nowsze" data-segment="nowsze" aria-pressed="false">Nowsze auta</button>
+      <button type="button" id="seg-kevin" data-segment="kevin" aria-pressed="false">Kevina auta</button>
     </nav>
     <nav class="tabs" aria-label="Widoki">
       <button type="button" id="tab-top" data-tab="top" aria-pressed="true">Najlepsze okazje</button>
@@ -95,6 +96,61 @@
     </div>
   </form>
 
+  <form class="filters" id="filters-kevin" hidden>
+    <div class="field-row">
+      <label class="field">
+        <span>Marka</span>
+        <select id="kevin-brand">
+          <option value="all">Wszystkie</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="bmw">BMW</option>
+          <option value="audi">Audi</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Model</span>
+        <select id="kevin-model">
+          <option value="all">Wszystkie modele</option>
+        </select>
+      </label>
+    </div>
+    <div class="field-row">
+      <label class="field">
+        <span>Cena maks.</span>
+        <input id="kevin-maxp" type="number" inputmode="numeric" min="0" step="100" placeholder="Bez limitu">
+      </label>
+      <label class="field">
+        <span>Rocznik</span>
+        <select id="kevin-year">
+          <option value="all">Każdy rocznik</option>
+        </select>
+      </label>
+    </div>
+    <div class="field-row">
+      <label class="field">
+        <span>Przebieg maks.</span>
+        <input id="kevin-maxmi" type="number" inputmode="numeric" min="0" step="1000" placeholder="Bez limitu, mile">
+      </label>
+      <label class="field">
+        <span>Uszkodzenia</span>
+        <select id="kevin-damage">
+          <option value="all">Wszystkie</option>
+          <option value="none">Bez uszkodzeń</option>
+          <option value="light">Lekko uszkodzony</option>
+        </select>
+      </label>
+    </div>
+    <label class="field">
+      <span>Tytuł</span>
+      <select id="kevin-title">
+        <option value="all">Wszystkie</option>
+        <option value="clean">Czysty tytuł</option>
+        <option value="rebuilt">Tytuł rebuilt</option>
+        <option value="salvage">Tytuł salvage</option>
+      </select>
+    </label>
+  </form>
+
   <p class="status" id="status" aria-live="polite">Ładuję ogłoszenia…</p>
   <p class="persist" id="persist" hidden></p>
 
@@ -110,6 +166,7 @@
       <li><strong>Drogo</strong> — powyżej typowych cen albo tytuł salvage przy wysokiej cenie.</li>
     </ul>
     <p>Ceny porównawcze to wyniki sprzedaży na Bring a Trailer. Liczby przy „Szacunek” są tylko tam, gdzie jest świeży, podobny wynik. Jak go nie ma, karta pokazuje „brak danych”. Przy aukcji kupno to obecna oferta, nie cena młotka.</p>
+    <p>Kevina auta to roczniki od 2021: Mercedes, BMW i Audi poniżej rynku. Kalkulator naprawy liczy się na tym telefonie i nie zmienia pliku ogłoszeń.</p>
     <p class="sources">Źródła: Craigslist (Bay Area i okolice), Bring a Trailer, ClassicCars.com.</p>
   </footer>
 

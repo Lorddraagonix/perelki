@@ -19,6 +19,14 @@ const state = {
   onlyRare: false,
   maxP: "any",
   sort: "deal",
+  kevinBrand: "all",
+  kevinModel: "all",
+  kevinMaxPrice: "",
+  kevinYear: "all",
+  kevinMaxMiles: "",
+  kevinDamage: "all",
+  kevinTitle: "all",
+  kevinCalc: {},
   favs: { order: [], items: {} },
   fresh: new Set(),
   persistOk: true,
@@ -138,6 +146,18 @@ function byIdMap() {
 function listingEntries() {
   const live = byIdMap();
   if (state.tab === "top") {
+    if (state.segment === "kevin") {
+      const picks = state.data.topPicksKevin;
+      if (Array.isArray(picks) && picks.length) {
+        return picks
+          .map((id) => live.get(id))
+          .filter((listing) => listing && segmentOf(listing) === "kevin")
+          .map((listing) => ({ listing, gone: false }));
+      }
+      return state.data.listings
+        .filter((listing) => segmentOf(listing) === "kevin")
+        .map((listing) => ({ listing, gone: false }));
+    }
     const picks = state.segment === "nowsze" ? (state.data.topPicksNowsze || []) : state.data.topPicks;
     return picks
       .map((id) => live.get(id))
@@ -223,8 +243,113 @@ function matches(listing) {
   return words.every((word) => hay.includes(word));
 }
 
+function listingYear(listing) {
+  if (listing.year != null && listing.year !== "") {
+    const year = Number(listing.year);
+    if (year >= 1900 && year <= 2100) return year;
+  }
+  const match = String(listing.title || "").match(/\b(19|20)\d{2}\b/);
+  return match ? Number(match[0]) : null;
+}
+
+function kevinBrandKey(listing) {
+  const brand = String(listing.brand || "").toLowerCase();
+  if (brand.includes("mercedes")) return "mercedes";
+  if (brand.includes("bmw")) return "bmw";
+  if (brand.includes("audi")) return "audi";
+  return brand;
+}
+
+function kevinModelLabel(listing) {
+  if (listing.model) return String(listing.model);
+  const title = String(listing.title || "");
+  const rules = [
+    [/amg\s*gt/i, "AMG GT"],
+    [/\bgle\b/i, "GLE"],
+    [/\bglc\b/i, "GLC"],
+    [/\bgla\b/i, "GLA"],
+    [/\bcla\b/i, "CLA"],
+    [/\bg[-\s]?class\b|\bklasa g\b|\bg\s?63\b|\bg63\b|\bg\s?550\b/i, "Klasa G"],
+    [/\bs[-\s]?class\b|\bklasa s\b|\bs\s?\d{3}\b/i, "Klasa S"],
+    [/\be[-\s]?class\b|\bklasa e\b|\be\s?\d{3}\b/i, "Klasa E"],
+    [/\bc[-\s]?class\b|\bklasa c\b|\bc\s?\d{3}\b/i, "Klasa C"],
+    [/\bx6\b/i, "X6"],
+    [/\bx5\b/i, "X5"],
+    [/\bx4\b/i, "X4"],
+    [/\bx3\b/i, "X3"],
+    [/\bm4\b/i, "M4"],
+    [/\bm3\b/i, "M3"],
+    [/\b8\s*series\b|\bseria 8\b|\b8\d\d[id]?\b/i, "Seria 8"],
+    [/\b5\s*series\b|\bseria 5\b|\b5\d\d[id]?\b/i, "Seria 5"],
+    [/\brs\s?7\b/i, "RS7"],
+    [/\bs\s?7\b/i, "S7"],
+    [/\brs\s?5\b/i, "RS5"],
+    [/\bs\s?5\b/i, "S5"],
+    [/\bsq\s?8\b/i, "SQ8"],
+  ];
+  for (const [pattern, label] of rules) {
+    if (pattern.test(title)) return label;
+  }
+  return "";
+}
+
+function marketValueOf(listing) {
+  if (listing.marketValue != null && listing.marketValue !== "") return Number(listing.marketValue);
+  const profit = listing.profit || {};
+  if (profit.sellAsIsValue != null && profit.sellAsIsValue !== "") return Number(profit.sellAsIsValue);
+  return null;
+}
+
+function askingPrice(listing) {
+  if (listing.price != null && listing.price !== "") return Number(listing.price);
+  const profit = listing.profit || {};
+  if (profit.buyPrice != null && profit.buyPrice !== "") return Number(profit.buyPrice);
+  return null;
+}
+
+function discountOf(listing) {
+  const market = marketValueOf(listing);
+  const price = askingPrice(listing);
+  if (market == null || price == null || !Number.isFinite(market) || !Number.isFinite(price)) {
+    return { dollars: null, pct: null };
+  }
+  const dollars = market - price;
+  const pct = market > 0 ? (dollars / market) * 100 : null;
+  return { dollars, pct };
+}
+
+function parseMoneyInput(value) {
+  if (value == null || String(value).trim() === "") return null;
+  const number = Number(String(value).replace(/\s/g, "").replace(",", "."));
+  return Number.isFinite(number) ? number : null;
+}
+
+function matchesKevin(listing) {
+  if (state.kevinBrand !== "all" && kevinBrandKey(listing) !== state.kevinBrand) return false;
+  if (state.kevinModel !== "all" && kevinModelLabel(listing) !== state.kevinModel) return false;
+  if (state.kevinYear !== "all" && String(listingYear(listing) || "") !== state.kevinYear) return false;
+  if (state.kevinDamage !== "all" && listing.damage !== state.kevinDamage) return false;
+  if (state.kevinTitle !== "all" && listing.titleStatus !== state.kevinTitle) return false;
+  const maxPrice = parseMoneyInput(state.kevinMaxPrice);
+  if (maxPrice != null && !(askingPrice(listing) != null && askingPrice(listing) <= maxPrice)) return false;
+  const maxMiles = parseMoneyInput(state.kevinMaxMiles);
+  if (maxMiles != null && !(listing.mileage != null && Number(listing.mileage) <= maxMiles)) return false;
+  return true;
+}
+
 function sorted(entries) {
   const copy = entries.slice();
+  if (state.segment === "kevin" && state.tab !== "fav") {
+    copy.sort((a, b) => {
+      const da = discountOf(a.listing).dollars;
+      const db = discountOf(b.listing).dollars;
+      if (da == null && db == null) return (askingPrice(a.listing) || 0) - (askingPrice(b.listing) || 0);
+      if (da == null) return 1;
+      if (db == null) return -1;
+      return db - da;
+    });
+    return copy;
+  }
   const updatedDay = String(state.data.updated || "").slice(0, 10) || "0000-00-00";
   const price = (entry) => Number(entry.listing.price) || 0;
   const dist = (entry) => Number(entry.listing.distanceMiles) || 0;
@@ -338,10 +463,159 @@ function cardHtml(entry) {
   return `<article class="card${entry.gone ? " gone" : ""}">${heart}${linked}</article>`;
 }
 
+function titleStatusLabel(value) {
+  if (value === "clean") return "Czysty tytuł";
+  if (value === "rebuilt") return "Tytuł rebuilt";
+  if (value === "salvage") return "Tytuł salvage";
+  return "brak danych";
+}
+
+function damageLabel(value) {
+  if (value === "none") return "Bez uszkodzeń";
+  if (value === "light") return "Lekko uszkodzony";
+  return "brak danych";
+}
+
+function pctLabel(value) {
+  if (value == null || !Number.isFinite(value)) return "brak danych";
+  const rounded = Math.round(value);
+  return (rounded > 0 ? "" : "") + String(rounded) + " %";
+}
+
+function repairDefaults(listing) {
+  const stored = state.kevinCalc[listing.id];
+  const buy = stored && Object.prototype.hasOwnProperty.call(stored, "buy")
+    ? stored.buy
+    : (askingPrice(listing) == null ? "" : String(askingPrice(listing)));
+  const repair = stored && Object.prototype.hasOwnProperty.call(stored, "repair")
+    ? stored.repair
+    : (listing.repairCost == null || listing.repairCost === "" ? "" : String(listing.repairCost));
+  return { buy, repair };
+}
+
+function repairMath(listing, buyRaw, repairRaw) {
+  const buy = parseMoneyInput(buyRaw);
+  const repair = parseMoneyInput(repairRaw);
+  const repairForTotal = repair == null ? 0 : repair;
+  const total = buy == null ? null : buy + repairForTotal;
+  const market = marketValueOf(listing);
+  const savings = total == null || market == null ? null : market - total;
+  return { buy, repair, total, market, savings };
+}
+
+function repairHtml(listing) {
+  const values = repairDefaults(listing);
+  const math = repairMath(listing, values.buy, values.repair);
+  return `
+    <form class="repair" data-id="${esc(listing.id)}">
+      <h3>Kalkulator naprawy</h3>
+      <p class="hint">Szacunek na tym telefonie: cena zakupu + blacharka i lakier.</p>
+      <div class="repair-row">
+        <label>Cena zakupu
+          <input data-k="buy" type="number" inputmode="decimal" min="0" step="1" value="${esc(values.buy)}">
+        </label>
+        <label>Koszt naprawy
+          <input data-k="repair" type="number" inputmode="decimal" min="0" step="1" placeholder="0" value="${esc(values.repair)}">
+        </label>
+      </div>
+      <dl class="kv-grid">
+        <div><dt>Koszt całkowity</dt><dd data-out="total">${esc(moneyOrBlank(math.total))}</dd></div>
+        <div><dt>Wartość rynkowa</dt><dd>${esc(moneyOrBlank(math.market))}</dd></div>
+        <div class="wide"><dt>Oszczędność</dt><dd data-out="save">${profitCell(math.savings)}</dd></div>
+      </dl>
+    </form>`;
+}
+
+function kevinCardHtml(entry) {
+  const listing = entry.listing;
+  const year = listingYear(listing);
+  const discount = discountOf(listing);
+  const url = safeUrl(listing.url);
+  const photo = safeUrl(listing.photo);
+  const fav = state.favs.order.includes(listing.id);
+  const isNew = !entry.gone && state.fresh.has(listing.id);
+  const trim = listing.trim ? `<p class="meta">${esc(listing.trim)}</p>` : "";
+  const check = listing.checkNote ? `<p class="know"><strong>Do sprawdzenia.</strong> ${esc(listing.checkNote)}</p>` : "";
+  const damageNote = listing.damageNote ? `<p class="note">${esc(listing.damageNote)}</p>` : "";
+  const where = listing.city
+    ? (listing.distanceMiles != null ? listing.city + " · " + listing.distanceMiles + " mil od San Mateo" : listing.city)
+    : "brak danych";
+  const inner = `
+    ${photo ? `<div class="photo"><img src="${esc(photo)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>` : ""}
+    <div class="body">
+      ${entry.gone ? '<p class="gone-banner">Ogłoszenie usunięte</p>' : ""}
+      <div class="row">
+        ${isNew ? '<span class="badge-new">Nowe</span>' : ""}
+        <span class="kind">${esc(kevinModelLabel(listing) || "Premium")}</span>
+      </div>
+      <h2>${esc(listing.title || "Ogłoszenie")}</h2>
+      ${trim}
+      <dl class="kv-grid">
+        <div><dt>Rocznik</dt><dd>${year == null ? "brak danych" : esc(String(year))}</dd></div>
+        <div><dt>Cena</dt><dd>${esc(moneyOrBlank(askingPrice(listing)))}</dd></div>
+        <div><dt>Przebieg</dt><dd>${listing.mileage == null || listing.mileage === "" ? "brak danych" : esc(miles(listing.mileage))}</dd></div>
+        <div><dt>Lokalizacja</dt><dd>${esc(where)}</dd></div>
+        <div><dt>Tytuł</dt><dd>${esc(titleStatusLabel(listing.titleStatus))}</dd></div>
+        <div><dt>Uszkodzenia</dt><dd>${esc(damageLabel(listing.damage))}</dd></div>
+        <div><dt>Wartość rynkowa</dt><dd>${esc(moneyOrBlank(marketValueOf(listing)))}</dd></div>
+        <div><dt>Rabat</dt><dd>${profitCell(discount.dollars)}${discount.pct == null ? "" : " · " + esc(pctLabel(discount.pct))}</dd></div>
+      </dl>
+      ${damageNote}
+      ${listing.note ? `<p class="note">${esc(listing.note)}</p>` : ""}
+      ${check}
+      ${listing.source ? `<p class="src">${esc(listing.source)}</p>` : ""}
+      ${url ? '<span class="cta">Otwórz ogłoszenie</span>' : ""}
+    </div>`;
+  const heart = `<button type="button" class="heart" data-id="${esc(listing.id)}" aria-pressed="${fav ? "true" : "false"}" aria-label="${fav ? "Usuń z ulubionych" : "Dodaj do ulubionych"}">${HEART}</button>`;
+  const linked = url
+    ? `<a class="card-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
+    : `<div class="card-link">${inner}</div>`;
+  const calc = entry.gone ? "" : repairHtml(listing);
+  return `<article class="card${entry.gone ? " gone" : ""}">${heart}${linked}${calc}</article>`;
+}
+
+function fillSelect(select, placeholder, values, current) {
+  const chosen = values.includes(current) ? current : "all";
+  select.innerHTML = "";
+  const first = document.createElement("option");
+  first.value = "all";
+  first.textContent = placeholder;
+  select.appendChild(first);
+  values.forEach((value) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = value;
+    select.appendChild(option);
+  });
+  select.value = chosen;
+  return chosen;
+}
+
+function refreshKevinOptions() {
+  const listings = (state.data.listings || []).filter((listing) => {
+    if (segmentOf(listing) !== "kevin") return false;
+    if (state.kevinBrand !== "all" && kevinBrandKey(listing) !== state.kevinBrand) return false;
+    return true;
+  });
+  const models = [];
+  const years = [];
+  listings.forEach((listing) => {
+    const model = kevinModelLabel(listing);
+    if (model && !models.includes(model)) models.push(model);
+    const year = listingYear(listing);
+    if (year && !years.includes(String(year))) years.push(String(year));
+  });
+  models.sort();
+  years.sort();
+  state.kevinModel = fillSelect(document.getElementById("kevin-model"), "Wszystkie modele", models, state.kevinModel);
+  state.kevinYear = fillSelect(document.getElementById("kevin-year"), "Każdy rocznik", years, state.kevinYear);
+}
+
 function render() {
+  if (state.data) refreshKevinOptions();
   const all = listingEntries();
-  const shown = sorted(all.filter((entry) => matches(entry.listing)));
-  board.innerHTML = shown.map(cardHtml).join("");
+  const shown = sorted(all.filter((entry) => (state.segment === "kevin" ? matchesKevin(entry.listing) : matches(entry.listing))));
+  board.innerHTML = shown.map((entry) => (state.segment === "kevin" ? kevinCardHtml(entry) : cardHtml(entry))).join("");
   board.querySelectorAll("img").forEach((img) => {
     img.addEventListener("error", () => hideBrokenImage(img));
   });
@@ -359,8 +633,13 @@ function render() {
     button.setAttribute("aria-pressed", button.dataset.cond === state.cond ? "true" : "false");
   });
 
-  if (state.tab === "fav" && state.favs.order.length === 0) {
+  document.getElementById("filters").hidden = state.segment === "kevin";
+  document.getElementById("filters-kevin").hidden = state.segment !== "kevin";
+
+  if (state.tab === "fav" && favIdsForSegment().length === 0) {
     statusEl.textContent = "Nie masz jeszcze ulubionych. Kliknij serduszko na ogłoszeniu — zostaną zapisane na tym telefonie.";
+  } else if (state.segment === "kevin" && shown.length === 0) {
+    statusEl.textContent = "Brak ogłoszeń spełniających kryteria – lista odświeża się codziennie.";
   } else if (shown.length === 0) {
     statusEl.textContent = "Nic nie pasuje do tych filtrów. Poluzuj cenę albo wyczyść wyszukiwanie.";
   } else {
@@ -432,9 +711,39 @@ function bind() {
       render();
     });
   });
+  document.getElementById("kevin-brand").addEventListener("change", (event) => {
+    state.kevinBrand = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-model").addEventListener("change", (event) => {
+    state.kevinModel = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-year").addEventListener("change", (event) => {
+    state.kevinYear = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-damage").addEventListener("change", (event) => {
+    state.kevinDamage = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-title").addEventListener("change", (event) => {
+    state.kevinTitle = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-maxp").addEventListener("input", (event) => {
+    state.kevinMaxPrice = event.target.value;
+    render();
+  });
+  document.getElementById("kevin-maxmi").addEventListener("input", (event) => {
+    state.kevinMaxMiles = event.target.value;
+    render();
+  });
+  document.getElementById("filters-kevin").addEventListener("submit", (event) => event.preventDefault());
   document.querySelectorAll("[data-segment]").forEach((button) => {
     button.addEventListener("click", () => {
       state.segment = button.dataset.segment;
+      if (state.segment === "kevin") refreshKevinOptions();
       render();
     });
   });
@@ -450,6 +759,17 @@ function bind() {
     event.preventDefault();
     event.stopPropagation();
     toggleFav(button.dataset.id);
+  });
+  board.addEventListener("input", (event) => {
+    const form = event.target.closest(".repair");
+    if (!form) return;
+    const buy = form.querySelector('[data-k="buy"]').value;
+    const repair = form.querySelector('[data-k="repair"]').value;
+    state.kevinCalc[form.dataset.id] = { buy, repair };
+    const listing = byIdMap().get(form.dataset.id) || { id: form.dataset.id };
+    const math = repairMath(listing, buy, repair);
+    form.querySelector('[data-out="total"]').textContent = moneyOrBlank(math.total);
+    form.querySelector('[data-out="save"]').innerHTML = profitCell(math.savings);
   });
 }
 
@@ -490,6 +810,7 @@ async function init() {
   }
   refreshStoredCopies();
   markFresh(state.data.listings || []);
+  refreshKevinOptions();
   render();
 }
 

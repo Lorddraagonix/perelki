@@ -337,10 +337,21 @@ function matchesKevin(listing) {
   return true;
 }
 
+function kevinPickIndex(id) {
+  const picks = (state.data && state.data.topPicksKevin) || [];
+  return Array.isArray(picks) ? picks.indexOf(id) : -1;
+}
+
 function sorted(entries) {
   const copy = entries.slice();
   if (state.segment === "kevin" && state.tab !== "fav") {
     copy.sort((a, b) => {
+      const ia = kevinPickIndex(a.listing.id);
+      const ib = kevinPickIndex(b.listing.id);
+      const aPick = ia >= 0;
+      const bPick = ib >= 0;
+      if (aPick !== bPick) return aPick ? -1 : 1;
+      if (aPick && bPick && ia !== ib) return ia - ib;
       const da = discountOf(a.listing).dollars;
       const db = discountOf(b.listing).dollars;
       if (da == null && db == null) return (askingPrice(a.listing) || 0) - (askingPrice(b.listing) || 0);
@@ -545,6 +556,7 @@ function kevinCardHtml(entry) {
     <div class="body">
       ${entry.gone ? '<p class="gone-banner">Ogłoszenie usunięte</p>' : ""}
       <div class="row">
+        ${kevinPickIndex(listing.id) >= 0 ? '<span class="deal deal-perelka">Perełka</span>' : ""}
         ${isNew ? '<span class="badge-new">Nowe</span>' : ""}
         <span class="kind">${esc(kevinModelLabel(listing) || "Premium")}</span>
       </div>
